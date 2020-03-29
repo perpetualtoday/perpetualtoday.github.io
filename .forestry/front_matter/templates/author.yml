@@ -39,5 +39,3 @@ fields:
     required: false
   label: Instagram
   description: Instagram page
-pages:
-- content/authors/sophia-morena-tauxe.md
