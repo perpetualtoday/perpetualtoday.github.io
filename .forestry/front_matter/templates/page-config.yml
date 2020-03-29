@@ -43,7 +43,6 @@ fields:
   hidden: true
 - type: field_group
   name: params
-  label: params
   fields:
   - type: field_group
     name: plugins
@@ -146,6 +145,7 @@ fields:
       name: link
       label: link
     hidden: true
+  label: More Settings
 - type: field_group
   name: menu
   label: menu
