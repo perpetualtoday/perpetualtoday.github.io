@@ -23,8 +23,10 @@ sections:
 - type: directory
   path: content/about
   label: About Perpetual Today
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - about-page
 - type: directory
   path: content/ethics
   label: Code of Conduct
