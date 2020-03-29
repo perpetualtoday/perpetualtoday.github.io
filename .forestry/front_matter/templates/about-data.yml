@@ -4,83 +4,49 @@ hide_body: true
 fields:
 - type: boolean
   name: enable
-  label: enable
-- type: file
-  name: image1
-  label: image1
-- type: file
-  name: image2
-  label: image2
-- type: file
-  name: image3
-  label: image3
-- type: file
-  name: image4
-  label: image4
-- type: file
-  name: image5
-  label: image5
-- type: file
-  name: image6
-  label: image6
-- type: file
-  name: image7
-  label: image7
-- type: file
-  name: image8
-  label: image8
-- type: file
-  name: image9
-  label: image9
-- type: file
-  name: image10
-  label: image10
-- type: file
-  name: image11
-  label: image11
-- type: file
-  name: image12
-  label: image12
+  label: Show
+  default: true
+  hidden: true
 - type: field_group
   name: adviser
-  label: adviser
+  label: Adviser
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: eic
-  label: eic
+  label: Editor-in-Chief
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: associate
-  label: associate
+  label: Associate Editor
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: copyreader
-  label: copyreader
+  label: Copyreader
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: layoutartist
   label: layoutartist
