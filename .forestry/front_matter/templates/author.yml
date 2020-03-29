@@ -1,6 +1,7 @@
 ---
 label: Author
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
@@ -39,5 +40,3 @@ fields:
     required: false
   label: Instagram
   description: Instagram page
-pages:
-- content/authors/sophia-morena-tauxe.md
