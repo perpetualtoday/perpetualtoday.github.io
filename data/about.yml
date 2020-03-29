@@ -14,37 +14,37 @@ image11: images/gallery/11.jpg
 image12: images/gallery/12.jpg
 adviser:
   name: Kate Mercader
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide1.PNG"
 eic:
   name: Sophia Morena Tauxe
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-tauxe.png"
 associate:
   name: Micaela Denise Sarra
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide2.PNG"
 copyreader:
   name: Jharren Bilog
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide10.PNG"
 layoutartist:
   name: John Vincent Corcega
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide7.PNG"
 associatelayout:
   name: Alfred Magallones
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide6.PNG"
 artist:
-  name: Jodie Kate Nicole Franco
-  photo: images/gallery/12.jpg
+  name: Jodie Kate Franco
+  photo: "/assets/images/2020-03-29-Slide3.PNG"
 associateartist:
   name: Eghe Ann Corpuz
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide4.PNG"
 photojourn:
   name: Kenneth Louise Inhaynes
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide5.PNG"
 associatephotojourn:
   name: Ma. Eralyn Tabuzo
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide9.PNG"
 scitech:
   name: Resty Gumarao
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide8.PNG"
 editorial:
   name: John Paul Laudato
-  photo: images/gallery/12.jpg
+  photo: "/assets/images/2020-03-29-Slide10-1.PNG"
