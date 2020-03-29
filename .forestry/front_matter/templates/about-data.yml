@@ -7,6 +7,44 @@ fields:
   label: Show
   default: true
   hidden: true
+
+- type: file
+  name: image1
+  label: Image 1
+- type: file
+  name: image2
+  label: Image 2
+- type: file
+  name: image3
+  label: Image 3
+- type: file
+  name: image4
+  label: Image 4
+- type: file
+  name: image5
+  label: Image 5
+- type: file
+  name: image6
+  label: Image 6
+- type: file
+  name: image7
+  label: Image 7
+- type: file
+  name: image8
+  label: Image 8
+- type: file
+  name: image9
+  label: Image 9
+- type: file
+  name: image10
+  label: Image 10
+- type: file
+  name: image11
+  label: Image 11
+- type: file
+  name: image12
+  label: Image 12
+
 - type: field_group
   name: adviser
   label: Adviser
@@ -49,81 +87,81 @@ fields:
     label: Photo
 - type: field_group
   name: layoutartist
-  label: layoutartist
+  label: Chief Layout Artist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: associatelayout
-  label: associatelayout
+  label: Associate Layout Artist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: artist
-  label: artist
+  label: Chief Artist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: associateartist
-  label: associateartist
+  label: Associate Artist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: photojourn
-  label: photojourn
+  label: Chief Photojournalist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: associatephotojourn
-  label: associatephotojourn
+  label: Associate Photojournalist
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: scitech
-  label: scitech
+  label: Head Sci-Tech Writer
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
 - type: field_group
   name: editorial
-  label: editorial
+  label: Head Editorial Writer
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: file
     name: photo
-    label: photo
+    label: Photo
