@@ -1,4 +1,4 @@
-baseURL = "https://perpetualtoday.now.sh"
+baseURL = "https://perpetualtoday.netlify.com"
 languageCode = "en-us"
 title = "Perpetual Today"
 theme = "liva"
