@@ -35,7 +35,7 @@ of the whole section and append them to our $next slice. */}}
                 {{ if not $index}} id="article-link-bigger"{{ end }}>
                     <div class="col-lg-6">
                           {{ if .Params.Image }}
-                          <div class="next-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
+                          <div class="img-fluid next-post-thumb mr-3" style="background-image: url('{{ .Params.Image | absURL }}');"></div>
                           {{ end }}
                           <div class="media-body">
                             <div class="mb-3 post-meta">

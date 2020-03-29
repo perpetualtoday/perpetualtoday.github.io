@@ -154,8 +154,8 @@
 }
 
 .next-post-thumb {
-  height: 30vh;
-  width: 25vw;
+  height: 200px;
+  width: 300px;
   border-radius: 12px;
   background-position: center center;
   background-size: cover;
@@ -163,6 +163,12 @@
   background-repeat: no-repeat;
   margin-bottom: 16px;
   margin-top: 12px;
+
+
+  @include tablet {
+    height: 200px;
+    width: 300px;
+  }
 }
 .card-img {
   border-radius: 12px;
