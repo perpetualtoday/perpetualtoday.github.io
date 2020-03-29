@@ -34,7 +34,7 @@ home = ["HTML", "RSS", "JSON"]
 [params]
 author = "Perpetual Today"
 copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph). All Rights Reserved"
-description = "This is meta description"
+description = "We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department."
 email = "perpetualtoday@gmail.com"
 googleAnalitycsID = "UA-156100338-1"
 home = "Home"
