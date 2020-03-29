@@ -163,3 +163,5 @@ fields:
   - type: file
     name: photo
     label: Photo
+pages:
+- data/about.yml
