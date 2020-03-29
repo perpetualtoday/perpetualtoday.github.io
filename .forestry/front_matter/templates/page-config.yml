@@ -178,3 +178,5 @@ fields:
       label: weight
     hidden: true
   hidden: true
+pages:
+- config.toml
