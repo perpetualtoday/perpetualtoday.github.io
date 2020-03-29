@@ -17,3 +17,5 @@ fields:
   label: type
   hidden: true
   default: contact
+pages:
+- content/contact/_index.md
