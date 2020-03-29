@@ -4,16 +4,18 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: date
-  label: date
-- type: file
-  name: image
-  label: image
+  label: Title
+  description: Title of the page
 - type: textarea
   name: description
-  label: description
+  label: Short Description
+  description: Short description of the article
+- type: file
+  name: image
+  label: Hero Image
+  description: The image shown in the page
 - type: text
   name: type
   label: type
+  default: about
+  hidden: true
