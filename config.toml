@@ -1,0 +1,119 @@
+baseURL = "https://perpetualtoday.now.sh"
+languageCode = "en-us"
+title = "Perpetual Today"
+theme = "liva"
+summaryLength = "10"
+paginate = 4
+disqusShortname = "perpetualtoday"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+  
+############################## navigation ###############################
+[menu]
+  
+  # main menu
+  [[menu.main]]
+  name = "About Us"
+  URL = "about"
+  weight = 1
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 2
+
+  # footer menu
+  [[menu.footer]]
+  name = "Against \"Owl\" Odds"
+  URL = "about"
+  weight = 1
+  
+  [[menu.footer]]
+  name = "All Posts"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "Contact Perpetual Today"
+  URL = "contact"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Code of Conduct"
+  URL = "ethics"
+  weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logoalt = "images/logo-text.png"
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Perpetual Today"
+# Google Analitycs
+googleAnalitycsID = "UA-156100338-1"
+# Contact Information
+messenger = "PerpetualToday"
+instagram = "PerpetualTodayGMA"
+email = "perpetualtoday@gmail.com"
+location = "University of Perpetual Help-GMA Campus, General Mariano Alvarez, Cavite"
+# copyright
+copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph). All Rights Reserved"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "/assets/brand/loader.svg" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
+enable = true
+title = "The Perpetual Today Diurnal"
+content = "Subscribe to our newsletter and stay updated with the latest news in and out of the campus."
+
+############################# social site ########################
+[[params.social]]
+title = "Facebook"
+icon = "ti-facebook"
+link = "https://fb.me/perpetualtoday"
+
+[[params.social]]
+title = "Instagram"
+icon = "ti-instagram"
+link = "https://instagr.am/perpetualtoday"

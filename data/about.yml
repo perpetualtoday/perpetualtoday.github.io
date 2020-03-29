@@ -1,0 +1,62 @@
+enable : true
+
+image1 : "images/gallery/1.jpg"
+image2 : "images/gallery/2.jpg"
+image3 : "images/gallery/3.jpg"
+image4 : "images/gallery/4.jpg"
+image5 : "images/gallery/5.jpg"
+image6 : "images/gallery/6.jpg"
+image7 : "images/gallery/7.jpg"
+image8 : "images/gallery/8.jpg"
+image9 : "images/gallery/9.jpg"
+image10 : "images/gallery/10.jpg"
+image11 : "images/gallery/11.jpg"
+image12 : "images/gallery/12.jpg"
+
+adviser:
+  name : "Kate Mercader"
+  photo : "images/gallery/12.jpg"
+
+eic:
+  name : "Sophia Morena Tauxe"
+  photo : "images/gallery/12.jpg"
+
+associate:
+  name : "Micaela Denise Sarra"
+  photo : "images/gallery/12.jpg"
+
+copyreader:
+  name : "Jharren Bilog"
+  photo : "images/gallery/12.jpg"
+
+layoutartist:
+  name : "John Vincent Corcega"
+  photo : "images/gallery/12.jpg"
+
+associatelayout:
+  name : "Alfred Magallones"
+  photo : "images/gallery/12.jpg"
+
+artist:
+  name : "Jodie Kate Nicole Franco"
+  photo : "images/gallery/12.jpg"
+
+associateartist:
+  name : "Eghe Ann Corpuz"
+  photo : "images/gallery/12.jpg"
+
+photojourn:
+  name : "Kenneth Louise Inhaynes"
+  photo : "images/gallery/12.jpg"
+
+associatephotojourn:
+  name : "Ma. Eralyn Tabuzo"
+  photo : "images/gallery/12.jpg"
+
+scitech:
+  name : "Resty Gumarao"
+  photo : "images/gallery/12.jpg"
+
+editorial:
+  name : "John Paul Laudato"
+  photo : "images/gallery/12.jpg"
