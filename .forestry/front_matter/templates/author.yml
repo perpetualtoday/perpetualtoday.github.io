@@ -1,4 +1,41 @@
 ---
 label: Author
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Full Name
+  description: Full name of author
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Author Image
+  description: Picture of the author
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  hidden: true
+  default: author
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: Facebook
+  description: Facebook page
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: Twitter
+  description: Twitter page
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+  description: Instagram page
