@@ -5,15 +5,20 @@ fields:
 - type: text
   name: title
   label: title
+  hidden: true
 - type: datetime
   name: date
   label: date
+  hidden: true
 - type: file
   name: image
   label: image
+  hidden: true
 - type: text
   name: description
-  label: description
+  label: Short Description
 - type: text
   name: type
   label: type
+  default: ethics
+  hidden: true
