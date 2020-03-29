@@ -42,11 +42,9 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
-  match: "**/*"
 - type: document
   path: data/about.yml
   label: Perpetual Today Members
-  match: "**/*"
 upload_dir: static/assets/images
 public_path: "/assets/images"
 front_matter_path: ''
