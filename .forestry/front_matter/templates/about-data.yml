@@ -7,7 +7,6 @@ fields:
   label: Show
   default: true
   hidden: true
-
 - type: file
   name: image1
   label: Image 1
@@ -44,7 +43,6 @@ fields:
 - type: file
   name: image12
   label: Image 12
-
 - type: field_group
   name: adviser
   label: Adviser
