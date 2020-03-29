@@ -1,0 +1,39 @@
+---
+label: Post
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Title of the post
+- type: text
+  name: description
+  label: Short Description
+  description: Short description or excerpt of the article
+- type: datetime
+  name: date
+  label: Date
+  description: Date the post was published
+- type: list
+  name: authors
+  label: Authors
+  description: Make sure it is already added on the authors tab or the website won't
+    save.
+- type: file
+  name: image
+  label: Hero Image
+  description: Featured image at the top of the article.
+- type: list
+  name: categories
+  label: Categories
+  description: Categories where the post is applicable
+- type: list
+  name: tags
+  label: Tags
+  description: Post tags go here.
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: post

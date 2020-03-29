@@ -1,5 +1,5 @@
 ---
-title: How To Use Checklists To Improve Your UX
+title: How To Use Checklists To Improve Your UX ACTUAL
 date: 2020-01-29T04:07:47.000+00:00
 authors:
 - Test
@@ -15,6 +15,7 @@ tags:
 - Python
 - New
 type: post
+draft: true
 
 ---
 It's been over 2 years since Google introduced a new feature for Google Assistant, Google Lens. It has been rolled out to most devices right now, while a preview version is available on Google Lens for Google Pixel (or modded ROMs/devices).

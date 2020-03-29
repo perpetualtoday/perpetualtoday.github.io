@@ -7,8 +7,10 @@ sections:
 - type: directory
   path: content/blog
   label: Blog
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: content/authors
   label: Authors
@@ -21,8 +23,10 @@ sections:
 - type: directory
   path: content/about
   label: About Perpetual Today
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - about-page
 - type: directory
   path: content/ethics
   label: Code of Conduct
@@ -33,6 +37,14 @@ sections:
   label: Contact Perpetual Today
   create: all
   match: "**/*"
+- type: heading
+  label: Site Settings
+- type: document
+  path: config.toml
+  label: Configuration
+- type: document
+  path: data/about.yml
+  label: Perpetual Today Members
 upload_dir: static/assets/images
 public_path: "/assets/images"
 front_matter_path: ''
