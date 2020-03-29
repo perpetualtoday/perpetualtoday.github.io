@@ -1,16 +1,10 @@
 ---
-title: "Against \"Owl\" Odds"
-date: 2019-10-29T13:49:23+06:00
-draft: false
+title: Against "Owl" Odds
+date: 
+image: images/logo.png
+description: We are Perpetual Today, the official publication of the University of
+  Perpetual Help-GMA Campus Senior High School Department.
 
-# image
-image: "images/logo.png"
-
-# meta description
-description: "this is meta description"
-
-# type
-type : "about"
 ---
 We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department.
 
