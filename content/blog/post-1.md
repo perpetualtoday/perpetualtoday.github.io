@@ -1,30 +1,22 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
-date: 2020-01-29T10:07:47+06:00
-draft: false
+title: How To Use Checklists To Improve Your UX
+date: 2020-01-29T04:07:47.000+00:00
 authors:
-  - John Vincent
-
-# post thumb
+- Test
+- John Vincent
 image: "/images/featured-post/post-1.jpg"
-
-# meta description
-description: "this is meta description"
-
-# taxonomies
-categories: 
-  - "Android And Gmaing"
+description: this is meta description
+categories:
+- Android And Gmaing
 tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
+- Photos
+- Game
+- React
+- Python
+- New
+type: post
 
-# post type
-type: "post"
 ---
-
 It's been over 2 years since Google introduced a new feature for Google Assistant, Google Lens. It has been rolled out to most devices right now, while a preview version is available on Google Lens for Google Pixel (or modded ROMs/devices).
 
 But, how will Google Lens fare with... Fan arts? Will it be able to detect who's who? Let's start.
