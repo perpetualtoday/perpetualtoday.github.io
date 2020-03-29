@@ -167,8 +167,6 @@
   margin-top: 12px;
 }
 .card-img {
-  height: 300px;
-  width: 400px;
   border-radius: 12px;
   background-position: center center;
   background-size: cover;
@@ -351,6 +349,15 @@
     overflow: hidden;
     height: 100%;
     z-index: 2;
+}
+.feat-post-slider {
+    padding-bottom: 0px;
+}
+.recent-post-section {
+    padding-top: 80px;
+}
+.rounded-circle {
+    height: 280px;
 }
 
 .overlay-yellow {
