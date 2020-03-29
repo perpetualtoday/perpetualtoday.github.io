@@ -40,5 +40,3 @@ fields:
     required: false
   label: Instagram
   description: Instagram page
-pages:
-- content/authors/test.md
