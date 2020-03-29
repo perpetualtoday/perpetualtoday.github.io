@@ -1,17 +1,17 @@
 ---
 enable: true
-image1: images/gallery/1.jpg
-image2: images/gallery/2.jpg
-image3: images/gallery/3.jpg
-image4: images/gallery/4.jpg
-image5: images/gallery/5.jpg
-image6: images/gallery/6.jpg
-image7: images/gallery/7.jpg
-image8: images/gallery/8.jpg
-image9: images/gallery/9.jpg
-image10: images/gallery/10.jpg
-image11: images/gallery/11.jpg
-image12: images/gallery/12.jpg
+image1: "/assets/images/2020-03-29-Picture1.jpg"
+image2: "/assets/images/2020-03-29-Picture2.jpg"
+image3: "/assets/images/2020-03-29-Picture3.jpg"
+image4: "/assets/images/2020-03-29-Picture4.jpg"
+image5: "/assets/images/2020-03-29-Picture5.jpg"
+image6: "/assets/images/2020-03-29-Picture6.jpg"
+image7: "/assets/images/2020-03-29-Picture7.jpg"
+image8: "/assets/images/2020-03-29-Picture8.png"
+image9: "/assets/images/2020-03-29-Picture9.jpg"
+image10: "/assets/images/2020-03-29-Picture10.jpg"
+image11: "/assets/images/2020-03-29-Picture11.jpg"
+image12: "/assets/images/2020-03-29-Picture12.jpg"
 adviser:
   name: Kate Mercader
   photo: "/assets/images/2020-03-29-Slide1.PNG"
