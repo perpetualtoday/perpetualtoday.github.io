@@ -9,20 +9,17 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Pages
 - type: directory
   path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/search
-  label: Search
+  label: Contact Perpetual Today
   create: all
   match: "**/*"
 - type: directory
   path: content/ethics
-  label: Ethics
-  create: all
+  label: Code of Conduct
+  create: documents
   match: "**/*"
 - type: directory
   path: content/authors
