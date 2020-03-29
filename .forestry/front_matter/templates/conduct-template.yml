@@ -22,3 +22,5 @@ fields:
   label: type
   default: ethics
   hidden: true
+pages:
+- content/ethics/_index.md
