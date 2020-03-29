@@ -31,11 +31,11 @@ sections:
   label: Contact Perpetual Today
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/assets/images
+public_path: "/assets/images"
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: ":year:-:month:-:day:-:filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
