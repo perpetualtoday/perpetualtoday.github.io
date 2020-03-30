@@ -1,0 +1,13 @@
+---
+label: Advert
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: file
+  name: image
+  label: image
+- type: file
+  name: link
+  label: link
