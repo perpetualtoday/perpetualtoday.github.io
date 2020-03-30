@@ -28,8 +28,13 @@
     {{- end }}
     {{- end }}
   </div>
+
+  {{ if .Site.Data.advertising.enable }}
   <!-- advertisement -->
-  <div class="widget">
-    <img src="{{`images/promotion.png` | absURL}}" alt="" class="img-fluid">
+  <div class="advert widget">
+    <a href="{{ .Site.Data.advertising.link }}" class="article-author-link">
+    <img src="{{ .Site.Data.advertising.image | absURL}}" alt="" class="img-fluid">
+    </a>
   </div>
+  {{ end }}
 </div>
