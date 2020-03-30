@@ -38,7 +38,7 @@ fields:
     source:
       type: pages
       section: authors
-    min: '1'
+    min: ''
 - type: file
   name: image
   label: Hero Image
