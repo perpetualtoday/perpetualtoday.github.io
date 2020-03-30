@@ -24,4 +24,4 @@ The image above shows SARS-CoV-2's **complementary DNA strand**, the strand synt
 
 The whole cDNA strand is 29903 base pairs long, totalling to about 29.9 kilobytes.
 
-_See NCBI-NIH's data_ [here.](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3)
+_See NCBI-NIH's data_ [_here._](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3)
