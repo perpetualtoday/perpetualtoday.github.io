@@ -16,6 +16,8 @@ sections:
   label: Editorial Posts
   create: documents
   match: "**/*"
+  templates:
+  - editorial
 - type: directory
   path: content/authors
   label: Authors
