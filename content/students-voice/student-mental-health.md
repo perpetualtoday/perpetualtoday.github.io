@@ -1,6 +1,6 @@
 +++
-authors = ["Resty Gumarao"]
-categories = "Student's Voice"
+authors = ["authors/resty-gumarao.md"]
+categories = ["Student's Voice"]
 date = 2020-03-30T06:54:00Z
 description = "There is no question that schools should put a strong emphasis on students’ academics, and as members of the youth, we must persevere and work on improving ourselves and pushing our limits. "
 image = "/assets/images/2020/03/30/mental-health-art.png"
