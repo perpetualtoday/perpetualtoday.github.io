@@ -13,12 +13,13 @@ fields:
   description: Short description or excerpt of the article
 - type: datetime
   name: date
-  label: Date
-  description: Date the post was published
+  label: Date Published
+  description: Date the post was published.
 - type: datetime
   name: lastmod
   label: Date Updated
-  description: Date the post was updated
+  description: Date the article was updated. Only needed to fill up if the article
+    is updated.
 - type: list
   name: authors
   label: Authors
