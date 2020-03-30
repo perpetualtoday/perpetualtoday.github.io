@@ -28,32 +28,12 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About Perpetual Today
-  match: "**/*"
 - type: document
   path: content/ethics/_index.md
   label: Code of Conduct
-  match: "**/*"
 - type: document
   path: content/contact/_index.md
   label: Contact Perpetual Today
-  match: "**/*"
-- type: directory
-  path: content/about
-  label: About Perpetual Today
-  create: documents
-  match: "**/*"
-  templates:
-  - about-page
-- type: directory
-  path: content/ethics
-  label: Code of Conduct
-  create: documents
-  match: "**/*"
-- type: directory
-  path: content/contact
-  label: Contact Perpetual Today
-  create: all
-  match: "**/*"
 - type: heading
   label: Site Settings
 - type: document
