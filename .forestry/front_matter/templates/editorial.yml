@@ -4,7 +4,12 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: Title of the article.
+- type: textarea
+  name: description
+  label: Short Description
+  description: Short description of the article
 - type: text
   name: type
   label: type
@@ -20,7 +25,8 @@ fields:
 - type: list
   name: authors
   label: Author
-  description: Author of the article
+  description: Make sure it is already added on the authors tab or the website won't
+    save.
 - type: file
   name: image
   label: Hero Image
@@ -39,10 +45,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- type: textarea
-  name: description
-  label: Short Description
-  description: Short description of the article
 - type: list
   name: tags
   label: Tags
