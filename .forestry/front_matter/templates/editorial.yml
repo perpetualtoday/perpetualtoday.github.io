@@ -17,9 +17,8 @@ fields:
   hidden: true
 - type: list
   name: authors
-  label: Author
-  description: Make sure it is already added on the authors tab or the website won't
-    save.
+  label: Authors
+  description: Make sure it is already added on the authors tab to see it here.
   config:
     use_select: true
     source:
