@@ -11,3 +11,5 @@ fields:
 - type: file
   name: link
   label: Link to the website of the advert
+pages:
+- data/advertising.yml
