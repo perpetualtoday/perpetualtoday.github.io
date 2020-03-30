@@ -6,14 +6,14 @@ webhook_url:
 sections:
 - type: directory
   path: content/post
-  label: Posts
+  label: Blog
   create: documents
   match: "**/*"
   templates:
   - post
 - type: directory
   path: content/students-voice
-  label: Editorial Posts
+  label: Student's Voice
   create: documents
   match: "**/*"
   templates:
