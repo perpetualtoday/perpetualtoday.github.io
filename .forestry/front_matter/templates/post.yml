@@ -15,6 +15,10 @@ fields:
   name: date
   label: Date
   description: Date the post was published
+- type: datetime
+  name: lastmod
+  label: Date Updated
+  description: Date the post was updated
 - type: list
   name: authors
   label: Authors
