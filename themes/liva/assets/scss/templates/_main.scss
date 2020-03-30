@@ -354,14 +354,29 @@
     height: 100%;
     z-index: 2;
 }
-.feat-post-slider {
-    padding-bottom: 0px;
-}
 .recent-post-section {
     padding-top: 80px;
 }
 .rounded-circle {
     height: 280px;
+}
+.editorial-image {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    display: inline-block;
+
+    @include mobile {
+      display: none;
+    }
+}
+.editorial-badge {
+    height: 30px;
+    margin-bottom: -2px;
+}
+.editorial-title-badge {
+    height: 60px;
+    margin-bottom: 24px;
 }
 
 .overlay-yellow {
