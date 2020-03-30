@@ -27,7 +27,7 @@ fields:
   label: Date Updated
   description: Date the article was updated. Only needed to fill up if the article
     is updated.
-  default: now
+  default: ''
 - type: list
   name: authors
   label: Authors
