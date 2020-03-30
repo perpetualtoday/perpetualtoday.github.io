@@ -16,7 +16,7 @@ title = "SARS-CoV-2: The 30-kilobyte File That Vitiated the World"
 
 In a photo shared to Reddit last March 18, one of its users transcribed the full 29.9 kilobytes of the virus' RNA sequence based on data by the U.S. National Center for Biotechnology Information (NCBI-NIH).
 
-**What is RNA, anyway?** DNA consists of four base-pairs; Adenine, Thymine, Guanine, and Cytosine. The order of these base pair arrangements decide the characteristics of the living organism. RNA is a result of this DNA being _"transcripted"_ ; and in contrast to the two-strand DNA, it only has one strand.
+**What is RNA, anyway?** DNA consists of four base-pairs; Adenine, Thymine, Guanine, and Cytosine. The order of these base pair arrangements decide the characteristics of the living organism. RNA is a result of this DNA being _"transcripted"_ ; and in contrast to the two-stranded DNA, it only has one strand.
 
 Several viruses have RNA, SARS-CoV-2 included. According to the user, it got the RNA sequence (after it has been processed) and color coded them based on each base pair.
 
