@@ -23,8 +23,12 @@ fields:
 - type: list
   name: authors
   label: Authors
-  description: Make sure it is already added on the authors tab or the website won't
-    save.
+  description: Make sure it is already added on the authors tab to see it here.
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
 - type: file
   name: image
   label: Hero Image
