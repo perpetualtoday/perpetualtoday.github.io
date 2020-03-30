@@ -48,3 +48,5 @@ fields:
   label: type
   hidden: true
   default: post
+pages:
+- content/post/meet-lyrebirds-birds-that-can-mimic-all-kinds-of-sound.md
