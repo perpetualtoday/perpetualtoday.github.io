@@ -39,6 +39,7 @@ fields:
   description: Date the article was published.
   config:
     required: true
+  default: now
 - name: lasmod
   type: datetime
   label: Date Updated
