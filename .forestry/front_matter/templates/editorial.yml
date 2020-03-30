@@ -2,27 +2,47 @@
 label: Editorial
 hide_body: false
 fields:
-- type: list
-  name: authors
-  label: authors
-- type: list
-  name: categories
-  label: categories
-- type: datetime
-  name: date
-  label: date
-- type: textarea
-  name: description
-  label: description
-- type: file
-  name: image
-  label: image
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: title
   label: title
 - type: text
   name: type
   label: type
+  default: editorial
+  hidden: true
+- name: categories
+  type: text
+  config:
+    required: false
+  default: Student's Voice
+  label: categories
+  hidden: true
+- type: list
+  name: authors
+  label: Author
+  description: Author of the article
+- type: file
+  name: image
+  label: Hero Image
+  description: The image shown at the top of the page
+- type: datetime
+  name: date
+  label: Date Published
+  description: Date the article was published.
+- name: lasmod
+  type: datetime
+  label: Date Updated
+  description: Date the article was updated. Only needed to fill up if the article
+    is updated.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- type: textarea
+  name: description
+  label: Short Description
+  description: Short description of the article
+- type: list
+  name: tags
+  label: Tags
