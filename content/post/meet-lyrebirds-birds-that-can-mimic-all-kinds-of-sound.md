@@ -10,7 +10,7 @@ tags = ["science", "technology", "COVID-19"]
 title = "SARS-CoV-2: The 30-kilobyte File That Vitiated the World"
 
 +++
-**Did you know that SARS-CoV-2's RNA sequence is only 8 kilobytes big?** Let's put that into perspective.
+**Did you know that SARS-CoV-2's RNA sequence is approximately only 30 kilobytes big?** Let's put that into perspective.
 
 \[TO DO: GRAPHIC\]
 
