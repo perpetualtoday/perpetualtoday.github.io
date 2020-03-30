@@ -46,3 +46,5 @@ fields:
 - type: list
   name: tags
   label: Tags
+pages:
+- content/students-voice/latest-pandemic-causes-cancellations2.md

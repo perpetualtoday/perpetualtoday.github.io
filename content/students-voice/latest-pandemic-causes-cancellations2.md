@@ -1,13 +1,14 @@
 +++
 authors = ["Sophia Morena Tauxe"]
-categories = ["Student's Voice"]
+categories = "Student's Voice"
 date = 2020-02-26T08:00:00Z
 description = "Throughout human history, one thing has wreaked havoc for many, disease. Various illnesses have destroyed civilizations and entire communities, leaving devastation in its wake. Starting December of 2019, we have been faced with another: The infamous Coronavirus or COVID-19."
+draft = true
 image = "/assets/images/2020-03-29-art-20200329-1.png"
+lasmod = ""
 tags = ["COVID-19"]
 title = "Editorial Sample"
 type = "editorial"
-draft = "true"
 
 +++
 Throughout human history, one thing has wreaked havoc for many, disease. Various illnesses have destroyed civilizations and entire communities, leaving devastation in its wake. From AIDS to Cholera, The Spanish Flu to Polio and the Plague, humans have had to bear many seemingly unexplainable disease and starting December of 2019, we have been faced with another: The infamous Coronavirus or COVID-19.
