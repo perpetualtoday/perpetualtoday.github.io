@@ -2,7 +2,7 @@
 authors = ["John Vincent Corcega"]
 categories = ["#TodayFacts"]
 date = 2020-03-31T02:05:00Z
-description = "Did you know that SARS-CoV-2's RNA sequence is approximately only 30 kilobytes?"
+description = "Did you know that SARS-CoV-2's RNA sequence is approximately only 30 kilobytes big?"
 draft = true
 image = ""
 lastmod = ""
