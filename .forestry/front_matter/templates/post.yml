@@ -7,19 +7,27 @@ fields:
   name: title
   label: Title
   description: Title of the post
+  config:
+    required: true
 - type: text
   name: description
   label: Short Description
   description: Short description or excerpt of the article
+  config:
+    required: true
 - type: datetime
   name: date
   label: Date Published
   description: Date the post was published.
+  config:
+    required: true
+  default: now
 - type: datetime
   name: lastmod
   label: Date Updated
   description: Date the article was updated. Only needed to fill up if the article
     is updated.
+  default: now
 - type: list
   name: authors
   label: Authors
@@ -30,6 +38,7 @@ fields:
     source:
       type: pages
       section: authors
+    min: '1'
 - type: file
   name: image
   label: Hero Image
