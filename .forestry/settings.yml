@@ -39,7 +39,6 @@ sections:
 - type: document
   path: data/advertising.yml
   label: Advertisement
-  match: "**/*"
 - type: document
   path: config.toml
   label: Configuration
