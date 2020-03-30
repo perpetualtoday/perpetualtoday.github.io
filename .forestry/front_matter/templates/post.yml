@@ -23,9 +23,10 @@ fields:
 - type: list
   name: authors
   label: Authors
-  description: Make sure it is already added on the authors tab to see it here.
+  description: Make sure it is already added on the authors tab or the website won't
+    save.
   config:
-    use_select: true
+    use_select: false
     source:
       type: pages
       section: authors
