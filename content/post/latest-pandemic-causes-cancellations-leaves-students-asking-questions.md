@@ -1,5 +1,5 @@
 +++
-authors = ["authors/sophia-morena-tauxe.md"]
+authors = ["Sophia Morena Tauxe"]
 categories = ["News"]
 date = 2020-02-26T08:00:00Z
 description = "Throughout human history, one thing has wreaked havoc for many, disease. Various illnesses have destroyed civilizations and entire communities, leaving devastation in its wake. Starting December of 2019, we have been faced with another: The infamous Coronavirus or COVID-19."
