@@ -7,7 +7,7 @@
     <ul class="list-unstyled">
       {{- range $name, $items := .Site.Taxonomies.categories }}
       <li><a
-          href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+          href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize | title }}</a>
       </li>
       {{- end }}
     </ul>
