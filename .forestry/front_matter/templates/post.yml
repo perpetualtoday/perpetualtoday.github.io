@@ -38,8 +38,9 @@ fields:
   name: categories
   label: Categories
   description: Categories where the post is applicable
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
   description: Post tags go here.
 - type: text
