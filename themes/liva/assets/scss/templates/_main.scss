@@ -370,6 +370,11 @@
       display: none;
     }
 }
+.newsletter-footer {
+    @include mobile {
+      display: none;
+    }
+}
 .editorial-badge {
     height: 30px;
     margin-bottom: -2px;
