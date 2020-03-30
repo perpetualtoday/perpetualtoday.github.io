@@ -13,7 +13,7 @@ sections:
   - post
 - type: directory
   path: content/students-voice
-  label: Student's Voice
+  label: Student's Voice (Editorial)
   create: documents
   match: "**/*"
   templates:
