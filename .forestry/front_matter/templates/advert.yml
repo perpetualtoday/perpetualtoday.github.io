@@ -4,10 +4,10 @@ hide_body: true
 fields:
 - type: boolean
   name: enable
-  label: enable
+  label: Enable Ad on the Sidebar
 - type: file
   name: image
-  label: image
+  label: Image shown
 - type: file
   name: link
-  label: link
+  label: Link to the website of the advert
