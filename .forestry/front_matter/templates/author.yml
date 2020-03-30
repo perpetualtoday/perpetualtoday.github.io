@@ -6,7 +6,7 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Full Name
   description: Full name of author
 - name: image
