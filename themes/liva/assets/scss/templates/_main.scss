@@ -380,8 +380,30 @@
     margin-bottom: -2px;
 }
 .editorial-title-badge {
-    height: 60px;
+    height: 50px;
+    background-color: $primary-color;
+    color: $white;
     margin-bottom: 24px;
+}
+.editorial-title-badge-text {
+    color: $secondary-color;
+    margin-left: 18px;
+    float: left;
+    line-height: 50px;
+}
+.editorial-title-badge-subtext {
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 24px;
+    float: right;
+    line-height: 50px;
+
+    @include mobile {
+      display: none;
+    }
+}
+.advert {
+    max-width: 305px;
+    margin: auto;
 }
 
 .overlay-yellow {
