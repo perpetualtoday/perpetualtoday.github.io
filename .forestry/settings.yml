@@ -5,12 +5,17 @@ admin_path: "/static/admin/"
 webhook_url: 
 sections:
 - type: directory
-  path: content/blog
-  label: Blog
+  path: content/post
+  label: News Posts
   create: documents
   match: "**/*"
   templates:
   - post
+- type: directory
+  path: content/students-voice
+  label: Editorial Posts
+  create: documents
+  match: "**/*"
 - type: directory
   path: content/authors
   label: Authors
