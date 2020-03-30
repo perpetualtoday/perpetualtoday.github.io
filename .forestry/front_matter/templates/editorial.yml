@@ -45,11 +45,16 @@ fields:
     display_utc: false
 - name: categories
   type: tag_list
-  default: []
+  default:
+  - Student's Voice
   label: Categories
-- type: list
-  name: tags
+  description: Categories where the post is applicable.
+  hidden: true
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
+  description: Post tags go here.
 pages:
 - content/students-voice/latest-pandemic-causes-cancellations2.md
 - content/students-voice/student-mental-health.md
