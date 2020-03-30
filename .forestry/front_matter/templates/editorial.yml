@@ -15,18 +15,16 @@ fields:
   label: type
   default: editorial
   hidden: true
-- name: categories
-  type: text
-  config:
-    required: false
-  default: Student's Voice
-  label: categories
-  hidden: true
 - type: list
   name: authors
   label: Author
   description: Make sure it is already added on the authors tab or the website won't
     save.
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
 - type: file
   name: image
   label: Hero Image
@@ -45,6 +43,10 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
 - type: list
   name: tags
   label: Tags
