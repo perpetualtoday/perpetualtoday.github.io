@@ -41,5 +41,3 @@ fields:
   label: type
   hidden: true
   default: post
-pages:
-- content/blog/latest-pandemic-causes-cancellations-leaves-students-asking-questions.md
