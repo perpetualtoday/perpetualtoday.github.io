@@ -6,10 +6,14 @@ fields:
   name: title
   label: Title
   description: Title of the article.
+  config:
+    required: true
 - type: textarea
   name: description
   label: Short Description
   description: Short description of the article
+  config:
+    required: true
 - type: text
   name: type
   label: type
@@ -33,6 +37,8 @@ fields:
   name: date
   label: Date Published
   description: Date the article was published.
+  config:
+    required: true
 - name: lasmod
   type: datetime
   label: Date Updated
