@@ -1,6 +1,6 @@
 +++
 authors = ["John Vincent Corcega"]
-categories = ["#TodayIKnew"]
+categories = ["TodayIKnew"]
 date = 2020-03-31T02:50:00Z
 description = "Did you know that SARS-CoV-2's RNA sequence is about only 30 kilobytes big?"
 image = "/assets/images/2020/03/31/20200331-30kb.png"
