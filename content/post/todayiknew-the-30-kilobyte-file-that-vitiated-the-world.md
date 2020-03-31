@@ -30,7 +30,7 @@ The image above shows SARS-CoV-2's **complementary DNA strand**, a strand synthe
 
 According to the user, it got the RNA sequence (after it has been processed) and color coded them based on each base pair. The **purple** parts show the Adenine, **red** is Guanine, **orange** is Thymine, and **yellow** is Cytosine.
 
-_See the NCBI-NIH's data_ [_here._](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3 "here.")
+_See the NCBI-NIH's data_ [_here._](https://www.ncbi.nlm.nih.gov/nuccore/MN908947.3)
 
 _Photo credit: u/dx8kb via Reddit_
 
