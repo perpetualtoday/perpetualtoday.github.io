@@ -1,7 +1,7 @@
-baseURL = "https://perpetualtoday.now.sh"
+baseURL = "https://perpetualtoday.netlify.com"
 disqusShortname = "perpetualtoday"
 languageCode = "en-US"
-paginate = 1
+paginate = 4
 summaryLength = "10"
 theme = "liva"
 title = "Perpetual Today"
