@@ -10,7 +10,7 @@ URL = "about"
 name = "Against \"Owl\" Odds"
 weight = 1
 [[menu.footer]]
-URL = "blog"
+URL = "post"
 name = "All Posts"
 weight = 2
 [[menu.footer]]
