@@ -2,7 +2,10 @@
 title: Code of Conduct
 date: 2019-10-29T07:49:23.000+00:00
 image: images/logo.png
-description: this is meta description
+description: Perpetual Today is founded upon the principles of truth, integrity and
+  a complete disregard for bias. Ethical journalism aims to ensure the open, correct
+  and comprehensive sharing of facts. It is the dignity of a responsible journalist.
+type: ''
 
 ---
 Perpetual Today is founded upon the principles of truth, integrity and a complete disregard for bias. Ethical journalism aims to ensure the open, correct and comprehensive sharing of facts. It is the dignity of a responsible journalist.
