@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin/"
-webhook_url: 
+webhook_url: https://api.zeit.co/v1/integrations/deploy/QmT73p5pCpAArFb8VphMMmgbreaM6vMjhFs6wcygqUv1TV/hjAOs4AYUn
 sections:
 - type: directory
   path: content/post
