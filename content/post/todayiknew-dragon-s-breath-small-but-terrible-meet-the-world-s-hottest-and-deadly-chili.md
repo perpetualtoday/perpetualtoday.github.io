@@ -3,11 +3,11 @@ authors = ["John Vincent Corcega"]
 categories = ["TodayIKnew"]
 date = 2020-04-02T02:00:49Z
 description = "A chili so hot, it can actually kill you."
-draft = true
 image = "/assets/images/2020/04/01/chili-new-todayknew.png"
 lastmod = ""
 tags = ["Food"]
 title = "#TodayIKnew: Small But Terrible - Meet the World's Hottest (and Deadly) Chili Pepper"
+type = ""
 
 +++
 _"Death by chili"_ may sound impossible, but it is certainly possible for beings brave enough to try **Dragon's Breath**, the hottest chili you can find today.
