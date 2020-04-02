@@ -2,7 +2,7 @@
 authors = ["John Vincent Corcega"]
 categories = ["TodayIKnew"]
 date = 2020-04-02T02:00:49Z
-description = "A chili so hot, it can actually kill you."
+description = "A chili so hot, it can actually kill you. "
 image = "/assets/images/2020/04/01/chili-new-todayknew.png"
 lastmod = ""
 tags = ["Food"]
