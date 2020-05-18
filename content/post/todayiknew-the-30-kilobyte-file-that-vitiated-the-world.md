@@ -1,14 +1,14 @@
 +++
 authors = ["John Vincent Corcega"]
 categories = ["TodayIKnew"]
+credit = "u/dx8kb via Reddit"
 date = 2020-03-31T02:50:00Z
 description = "Did you know that SARS-CoV-2's RNA sequence is about only 30 kilobytes big?"
-image = "/assets/images/2020/03/31/20200331-30kb.png"
+image = "/assets/images/2020/05/18/rfit-3.png"
 lastmod = ""
 tags = ["COVID-19", "Science", "Technology"]
 title = "#TodayIKnew: The 30-kilobyte File That Vitiated the World"
 type = ""
-credit = "u/dx8kb via Reddit"
 
 +++
 **Did you know that SARS-CoV-2's RNA sequence is about only 30 kilobytes big?** Let's put that into perspective.
