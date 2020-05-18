@@ -1,9 +1,10 @@
 +++
 authors = ["Sophia Morena Tauxe"]
 categories = ["News"]
+credit = "AlJazeera"
 date = 2020-02-26T08:00:00Z
 description = "Throughout human history, one thing has wreaked havoc for many, disease. Various illnesses have destroyed civilizations and entire communities, leaving devastation in its wake. Starting December of 2019, we have been faced with another: The infamous Coronavirus or COVID-19."
-image = "/assets/images/2020-03-29-art-20200329-1.png"
+image = "/assets/images/2020/05/18/rfit-2.png"
 lastmod = 2020-02-26T08:00:00Z
 tags = ["COVID-19"]
 title = "Latest Pandemic Causes Cancellations"
