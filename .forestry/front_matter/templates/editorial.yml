@@ -69,4 +69,5 @@ fields:
   label: Tags
   description: Post tags go here.
 pages:
+- content/students-voice/dengue-outbreak-in-cavite.md
 - content/students-voice/student-mental-health.md
