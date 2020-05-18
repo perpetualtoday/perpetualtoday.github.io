@@ -2,7 +2,7 @@
 authors = ["Janie Marie Peleno"]
 categories = ["Student's Voice"]
 credit = "Eghe Ann Corpuz"
-date = 2020-08-14T16:00:00Z
+date = 2019-08-14T16:00:00Z
 description = "This type of case should be taken seriously."
 image = "/assets/images/2020/05/18/slide6.png"
 lasmod = ""
