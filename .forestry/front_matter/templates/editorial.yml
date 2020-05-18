@@ -33,6 +33,12 @@ fields:
   name: image
   label: Hero Image
   description: The image shown at the top of the page
+- name: credit
+  type: text
+  config:
+    required: false
+  label: Photo Credit
+  description: Credit to the owner of the hero photo.
 - type: datetime
   name: date
   label: Date Published
