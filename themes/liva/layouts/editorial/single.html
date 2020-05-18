@@ -54,6 +54,9 @@
                 </div>
         {{ if .Params.image }}
         <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+                  {{ if .Params.credit }}
+                  <i class="photo-credit"><span><strong>Photo by</strong> {{ .Params.credit }}</span></i>
+                  {{ end }}
         {{ end }}
         <div class="content mb-5">
           {{ .Content }}
