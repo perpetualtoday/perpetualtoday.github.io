@@ -64,6 +64,7 @@ fields:
   hidden: true
   default: post
 pages:
+- content/post/a-magical-musical-masterpiece-many-moons-and-saffron.md
 - content/post/intertainment-dance-evoluton-jazz-chant-and-musical-play.md
 - content/post/shs-starts-high-on-perpetual-gma.md
 - content/post/todayiknew-dragon-s-breath-small-but-terrible-meet-the-world-s-hottest-and-deadly-chili.md
