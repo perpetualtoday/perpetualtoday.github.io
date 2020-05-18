@@ -1,13 +1,14 @@
 +++
 authors = ["Micaela Denise Sarra"]
-categories = []
+categories = ["News"]
+credit = "Andre Banal"
 date = 2019-06-30T16:00:00Z
 description = "Overall, the university has 684 SHS students currently studying, with it still accepting new enrolees."
-draft = true
-image = ""
+image = "/assets/images/2020/05/18/slide1.png"
 lastmod = ""
-tags = []
+tags = ["enrollment", "freshmen"]
 title = "SHS Starts High on Perpetual GMA"
+type = ""
 
 +++
 July 1, 2019, officially started the Senior High School department’s first day of this academic year. It is amusing to see the number of freshmen, Grade 11 students currently enrolled for this year which is 299 while the number of the currently enrolled Grade 12 students are 385.
