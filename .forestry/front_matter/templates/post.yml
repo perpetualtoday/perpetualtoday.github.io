@@ -43,6 +43,12 @@ fields:
   name: image
   label: Hero Image
   description: Featured image at the top of the article.
+- name: credit
+  type: text
+  config:
+    required: false
+  label: Photo Credit
+  description: Credit to the owner of the hero photo
 - type: list
   name: categories
   label: Categories
