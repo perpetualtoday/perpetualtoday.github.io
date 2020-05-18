@@ -1,5 +1,5 @@
 +++
-authors = ["Janie Marie Peleño", "Janie Marie Peleno"]
+authors = ["Janie Marie Peleno"]
 categories = ["Student's Voice"]
 credit = "Eghe Ann Corpuz"
 date = 2020-08-14T16:00:00Z
