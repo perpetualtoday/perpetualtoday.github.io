@@ -70,9 +70,6 @@ author = "Perpetual Today"
 description = "We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department."
 copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph)."
 
-preloader = true
-search = true
-
 # Contact Info
 messenger = "@PerpetualToday"
 hashtag = "@PerpetualToday"
