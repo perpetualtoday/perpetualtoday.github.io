@@ -1,6 +1,0 @@
-<figure class="article-image-container" link="{{ .Destination | safeURL }}">
-	<img class="article-image-figure img-fluid" src="{{ .Destination | safeURL }}" link="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
-	{{ with .Title}}
-	 	<figcaption class="article-image-caption">{{ . }}</figcaption>
-	{{ end }}
-</figure>
