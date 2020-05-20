@@ -58,19 +58,24 @@ weight = 4
 
 # Settings
 [params]
-# Logo and wordmark
-logo = "/assets/brand/logo.png"
-wordmark = "/assets/brand/wordmark.svg"
 
 # theme layout ( two layout is available, "1" and "2" )s
 layout = "1"
 
+[params.brand]
+# Logo and wordmark
+logo = "/assets/brand/logo.png"
+wordmark = "/assets/brand/wordmark.svg"
+preloader = "/assets/brand/loader.svg"
+
 # Meta data
+[params.publication]
 author = "Perpetual Today"
 description = "We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department."
 copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph)."
 
 # Contact Info
+[params.contact]
 messenger = "@PerpetualToday"
 hashtag = "@PerpetualToday"
 email = "exmaple@ymail.com"
@@ -91,7 +96,6 @@ description = "Subscribe to our newsletter and stay updated with the latest news
 # Preloader
 [params.preloader]
 enable = true
-preloader = "/assets/brand/loader.svg"
 
 # Search Box in Navigation
 [params.search]
