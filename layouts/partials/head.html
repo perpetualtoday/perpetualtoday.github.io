@@ -31,7 +31,7 @@
   {{ if eq .Params.headdesc "NonRobot" }}
   <meta content=noindex name=robots>
   {{ end }}
-
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ $ajax := resources.Get "js/ajax.js" | minify}}
   <script src="{{ $ajax.Permalink }}"></script>
 
