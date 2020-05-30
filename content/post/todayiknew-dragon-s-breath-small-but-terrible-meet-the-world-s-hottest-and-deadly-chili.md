@@ -21,7 +21,7 @@ In contrast, the **Carolina Reaper**, the once-hottest pepper, is only about **1
 
 The Dragon's Breath is so spicy that it was kept in a sealed container when it went on display at the Chelsea Flower Show last May 23 to 27, 2017, the Daily Post reported.
 
-![/assets/images/2020/04/01/NvQtfFeKRw4zYsCPaE6bN9-650-80.jpg](https://app.forestry.io/sites/wdy5emcayvxmew/body-media//assets/images/2020/04/01/NvQtfFeKRw4zYsCPaE6bN9-650-80.jpg "Image credit: julie deshaies/Shutterstock")
+![/assets/images/2020/04/01/NvQtfFeKRw4zYsCPaE6bN9-650-80.jpg](/assets/images/2020/04/01/NvQtfFeKRw4zYsCPaE6bN9-650-80.jpg "Image credit: julie deshaies/Shutterstock")
 
 Smith didn't intend Dragon's Breath to be eaten as part of a meal. Instead, he grew it so that it could be used as a topical numbing anesthetic for people who are allergic to regular anesthesia.
 

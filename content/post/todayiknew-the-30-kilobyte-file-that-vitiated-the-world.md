@@ -13,7 +13,7 @@ type = ""
 +++
 **Did you know that SARS-CoV-2's RNA sequence is about only 30 kilobytes big?** Let's put that into perspective.
 
-![What does 30kb mean?](https://app.forestry.io/sites/wdy5emcayvxmew/body-media//assets/images/2020/03/31/graphic-20200331-30kb.png)
+![What does 30kb mean?](/assets/images/2020/03/31/graphic-20200331-30kb.png)
 
 ##### What is RNA, anyway?
 
@@ -23,7 +23,7 @@ Several viruses have RNA, SARS-CoV-2 included.
 
 ##### So, how do 30 kilobytes look like?
 
-![Photo credit: u/dx8kb via Reddit](https://app.forestry.io/sites/wdy5emcayvxmew/body-media//assets/images/2020/03/31/c3bcedd.png "Photo credit: u/dx8kb via Reddit")
+![Photo credit: u/dx8kb via Reddit](/assets/images/2020/03/31/c3bcedd.png "Photo credit: u/dx8kb via Reddit")
 
 In a photo shared with Reddit last March 18, one of its users transcribed the full 29.9 kilobytes of the virus' RNA sequence-based on data by the U.S. National Center for Biotechnology Information (NCBI-NIH).
 
