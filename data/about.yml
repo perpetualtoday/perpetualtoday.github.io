@@ -1,0 +1,38 @@
+---
+enable: true
+adviser:
+  name: Kate Mercader
+  photo: "/assets/images/2020-03-29-Slide1.PNG"
+eic:
+  name: Sophia Morena Tauxe
+  photo: "/assets/images/2020-03-29-tauxe.png"
+associate:
+  name: Micaela Denise Sarra
+  photo: "/assets/images/2020-03-29-Slide2.PNG"
+copyreader:
+  name: Jharren Bilog
+  photo: "/assets/images/2020-03-29-Slide10.PNG"
+layoutartist:
+  name: John Vincent Corcega
+  photo: "/assets/images/2020-03-29-Slide7.PNG"
+associatelayout:
+  name: Alfred Magallones
+  photo: "/assets/images/2020-03-29-Slide6.PNG"
+artist:
+  name: Jodie Kate Franco
+  photo: "/assets/images/2020-03-29-Slide3.PNG"
+associateartist:
+  name: Eghe Ann Corpuz
+  photo: "/assets/images/2020-03-29-Slide4.PNG"
+photojourn:
+  name: Kenneth Louise Inhaynes
+  photo: "/assets/images/2020-03-29-Slide5.PNG"
+associatephotojourn:
+  name: Ma. Eralyn Tabuzo
+  photo: "/assets/images/2020-03-29-Slide9.PNG"
+scitech:
+  name: Resty Gumarao
+  photo: "/assets/images/2020-03-29-Slide8.PNG"
+editorial:
+  name: John Paul Laudato
+  photo: "/assets/images/2020-03-29-Slide10-1.PNG"
