@@ -2,7 +2,6 @@
 baseURL = "https://perpetualtoday.netlify.app"
 languageCode = "en-us"
 title = "Perpetual Today"
-theme = "parsa"
 summaryLength = "10"
 paginate = 6
 
