@@ -99,7 +99,7 @@
             var offlinePage = '/offline';
 
             if (httpRequest.readyState !== XMLHttpRequest.DONE)
-                window.location.href = '/offline/';
+                return;
 
             var newDocument = httpRequest.responseXML;
             if (newDocument === null)

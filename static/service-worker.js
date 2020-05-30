@@ -1,6 +1,6 @@
 // Incrementing OFFLINE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const OFFLINE_VERSION = 4.0;
+const OFFLINE_VERSION = 4.1;
 
 const BASE_CACHE_FILES = [
     '/scss/style.min.css',
