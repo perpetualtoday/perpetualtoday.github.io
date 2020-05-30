@@ -1,0 +1,11 @@
+<section class="featured-section">
+	<div class="featured-slider">
+	  <div class="glide__track" data-glide-el="track">
+	    <ul class="glide__slides">
+	        {{ range first 5 (where .Site.RegularPages "Type" "post")}}
+	        	{{ partial "components/featured-slider/item.html" . }}
+	        {{ end }}
+	    </ul>
+	  </div>
+	</div>
+</section>

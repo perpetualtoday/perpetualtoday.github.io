@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="offline-container col-lg-12 mt-5">
+        <div class="offline-icon">
+          {{ $icon := resources.Get "icons/hero/outline/question-mark-circle.svg" }}
+          {{ $icon.Content | safeHTML }}
+        </div>
+        <div class="offline-center">
+          <h4 class="mb-2">Page Not Found</h4>
+          <span>If you typed in the address, make sure it's correct.</br>If you clicked a link from a different website or a bookmark, the link may have been moved or deleted.</span>
+        </div>
+        <div class="offline-center">
+          <span>Click <a href="/">here</a> to go back to the home page.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

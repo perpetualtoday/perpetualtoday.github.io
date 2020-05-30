@@ -1,0 +1,1 @@
+{{ $authors := partialCached "functions/sub/GetArticleAuthors" . .File.UniqueID }}{{ if eq (len $authors) 1 }}{{ with $author := index $authors 0 }}{{ with .name }}{{ . }}{{ end }}{{ end }}{{ else }}{{ range $index, $author := $authors }}{{ .firstname }}{{ if ne (add $index 1) (len $authors) }}, {{ end }}{{ end }}{{ end }}

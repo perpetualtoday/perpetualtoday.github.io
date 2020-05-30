@@ -1,0 +1,1 @@
+{{ $authors := partialCached "functions/sub/GetArticleAuthorsByTitle" . .File.UniqueID }}{{ if eq (len $authors) 1 }}{{ with $author := index $authors 0 }}{{ with .avatar }}{{ . }}{{ end }}{{ end }}{{ else }}{{ if .Params.Image }}{{ .Params.Image | absURL }}{{ end }}{{ end }}

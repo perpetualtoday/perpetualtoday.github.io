@@ -61,11 +61,13 @@ weight = 4
 
 # theme layout ( two layout is available, "1" and "2" )s
 layout = "1"
+mainSections = ["post", "editorial"]
 
 [params.brand]
 # Logo and wordmark
 logo = "/assets/brand/logo.png"
-wordmark = "/assets/brand/wordmark.svg"
+monochrome = "/assets/brand/logo.svg"
+wordmark = "/assets/brand/wordmark.png"
 preloader = "/assets/brand/loader.svg"
 
 # Meta data
@@ -77,21 +79,14 @@ copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Camp
 # Contact Info
 [params.contact]
 messenger = "@PerpetualToday"
-hashtag = "@PerpetualToday"
-email = "exmaple@ymail.com"
+hashtag = "PerpetualTodayGMA"
+email = "perpetualtoday@gmail.com"
 address = "University of Perpetual Help-GMA Campus, General Mariano Alvarez, Cavite"
 
 # 3rd-party Services
 [params.services]
-google_analitycs_id = "UA-156100338-1"
-google_analytics = "UA-156100338-1"
 disqusShortname = "perpetualtoday"
-
-# Newsletter
-[params.newsletter]
-enable = true
-title = "The Perpetual Today Diurnal"
-description = "Subscribe to our newsletter and stay updated with the latest news in and out of the campus."
+formAction = "https://docs.google.com/forms/d/e/1FAIpQLSdAOBqw_Yyyul5w3sQaiSgWjTPd1C8f-c22pnjrwTjESZgtxg/formResponse"
 
 # Preloader
 [params.preloader]
@@ -109,9 +104,11 @@ home = ["HTML", "RSS", "JSON"]
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/glide/glide.core.min.css"
+[[params.plugins.css]]
+link = "plugins/glide/glide.core.theme.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -119,20 +116,22 @@ link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
 link = "plugins/headroom/headroom.js"
-[[params.plugins.js]]
-link = "plugins/instafeed/instafeed.min.js"
 [[params.plugins.js]]
 link = "plugins/masonry/masonry.js"
 [[params.plugins.js]]
-link = "plugins/reading-time/readingTime.min.js"
-[[params.plugins.js]]
-link = "plugins/smooth-scroll/smooth-scroll.js"
+link = "plugins/glide/glide.min.js"
 [[params.plugins.js]]
 link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
+
+[[module.imports]]
+path = "heroicons"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"

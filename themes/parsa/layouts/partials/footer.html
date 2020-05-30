@@ -1,28 +1,31 @@
-<footer class="bg-secondary">
+<footer class="bg-light">
   <div class="section">
     <div class="container">
-      <div class="row">
+      <div class="mobile-center row">
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="{{.Site.BaseURL}}"><img src="{{.Site.Params.logo | absURL }}" alt="{{.Site.Title}}" class="img-fluid"></a>
+          <a href="{{.Site.BaseURL}}"><img src="{{.Site.Params.brand.monochrome | absURL }}" alt="{{.Site.Title}}" class="footer-logo img-fluid"></a>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Address</h6>
+          <h6>Quick Links</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">{{.Site.Params.address | markdownify }}</li>
+          {{ range .Site.Menus.footer }}
+            <li><a class="font-primary text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+          {{ end }}
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
-            <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
+            <li class="mb-2 font-secondary text-dark"><i class="ti-facebook mr-2"></i>{{ .Site.Params.contact.messenger | markdownify }}</li>
+            <li class="mb-2 font-secondary text-dark"><i class="ti-instagram mr-2"></i>Use the hashtag <strong>#{{ .Site.Params.contact.hashtag }}</strong></li>
+            <li class="mb-2 font-secondary text-dark"><i class="ti-email mr-2"></i>{{ .Site.Params.contact.email | markdownify }}</li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Follow</h6>
+          <h6>Follow Us on Social Media</h6>
           <ul class="list-inline d-inline-block">
             {{ range .Site.Params.social }}
-            <li class="list-inline-item"><a href="{{ .URL }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
+            <li class="list-inline-item"><a href="{{ .link }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
         </div>
@@ -30,34 +33,12 @@
     </div>
   </div>
   <div class="text-center pb-3">
-    <p class="mb-0">{{ .Site.Params.copyright | markdownify }}</p>
+    <a class="netlify-power" href="https://www.netlify.com">
+      <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" />
+    </a><br><br>
+    This website and its content are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+    <br>
+    <p class="mb-0">{{ .Site.Params.publication.copyright | markdownify }}</p>
   </div>
 </footer>
 
-
-{{ if .Site.Params.search }}
-<script>
-  var indexURL = {{ "index.json" | absURL }}
-</script>
-{{ end }}
-
-{{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
-{{ end }}
-
-{{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
-
-{{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.google_analitycs_id }}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', '{{ . }}', 'auto');
-  ga('send', 'pageview');
-</script>
-{{ end }}

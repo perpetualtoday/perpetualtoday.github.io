@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="section" id="posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>{{.Title}}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mt-5">
+        {{ $paginator := .Paginate ( where .Site.RegularPages "Type" "in" .Site.Params.mainSections ) }}
+        <div class="row">
+          {{ range $paginator.Pages }}
+          {{ partial "components/post-item/item.html" . }}
+          {{ end }}
+        </div>
+        {{ partial "components/homepage/paginator.html" . }}
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,386 @@
+.featured-post-slider-container {
+  margin-bottom: 18px;
+}
+
+.editorial-post-slider-container {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.editorial-post-container {
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.editorial-post-wrapper {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.card-img-overlay {
+  &::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(rgba($black, .8), rgba($black, .8));
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+.d-block {
+  display: block;
+}
+.featured-container {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.card-img {
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+}
+
+.title-border {
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+    background: $border-color;
+  }
+}
+
+.title-border-lg {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 300px;
+    left: -45px;
+    bottom: -50px;
+    background: $border-color;
+  }
+}
+
+.pagination {
+  @include mobile {
+    overflow: auto;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      width: 0px;
+      background: transparent
+    }
+  }
+
+  .page-item {
+    .page-link {
+      font-family: $primary-font;
+      font-size: 16px;
+      border-color: $primary-color;
+      color: $text-color;
+	  border-width: 1px;
+
+      &:hover {
+        color: $primary-color;
+        background-color: $secondary-color;
+      }
+    }
+
+    &.active {
+      .page-link {
+		color: $white;
+        background-color: $primary-color;
+		  &:hover {
+			color: $white;
+			background-color: $secondary-color;
+		  }
+      }
+    }
+  }
+}
+
+.instagram-post {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: $black, $alpha: .5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease;
+  }
+
+  ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .2s ease;
+
+    a {
+      transition: .2s ease;
+      font-size: 20px;
+
+      &:hover {
+        color: $primary-color !important;
+      }
+    }
+  }
+
+  &:hover {
+    &::before {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    ul {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+/* homepage 2 */
+.hero-section {
+  padding: 70px 0;
+  margin-bottom: 32px;
+}
+.rounded-button {
+  padding: 12px 15px;
+  border-radius: 50%;
+}
+
+.dividers {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .divider {
+    border-right: 1px solid #edeef0;
+    flex-basis: 50%;
+    height: 100vh;
+    opacity: .6;
+
+    &:first-child {
+      border-left: 1px solid #edeef0;
+    }
+  }
+}
+
+.article-full-width {
+  display: flex;
+  flex-wrap: nowrap;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  .post-image {
+    margin-right: 20px;
+
+    @include tablet {
+      margin: 0 0 20px 0;
+    }
+
+    img {
+      height: 400px;
+      width: auto;
+
+      @include tablet {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+
+  .post-content {
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+    }
+
+    .btn {
+      padding-left: 0;
+    }
+  }
+
+  .post-meta {
+    width: 250px;
+  }
+
+  .post-summary {
+    @include desktop {
+      display: none;
+    }
+
+    @include tablet {
+      display: block;
+    }
+  }
+
+  &.article-right {
+    justify-content: flex-end;
+
+    @include tablet {
+      flex-direction: column-reverse;
+    }
+
+    .post-image {
+      order: 2;
+      margin: 0 0 0 20px;
+
+      @include tablet {
+        margin: 0 0 20px 0;
+      }
+    }
+
+    .post-content {
+      order: 1;
+    }
+
+    .post-meta {
+      margin-left: auto;
+
+      @include tablet {
+        margin-left: 0;
+      }
+    }
+
+    .author {
+      text-align: right;
+
+      @include tablet {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.editorial-image {
+    height: 40px;
+    width: 40px;
+    margin-right: 8px;
+    display: inline-block;
+
+    @include mobile {
+      display: none;
+    }
+}
+
+.editorial-slider-container {
+    padding-left: 60px;
+    padding-right: 60px;
+
+  @include tablet {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+.editorial-slider-card-container {
+    margin-left: 60px;
+    margin-right: -60px;
+    padding-right: 60px;
+
+  @include tablet {
+    margin-left: 8px;
+    margin-right: -12px;
+    padding-right: 12px;
+  }
+}
+
+.editorial-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.featured-section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.section {
+  @include tablet {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+.editorial-badge {
+    height: 30px;
+    margin-bottom: -2px;
+}
+.editorial-title-badge {
+    height: 50px;
+    background-color: $primary-color;
+    color: $white;
+    margin-bottom: 24px;
+}
+.title-badge {
+    height: 50px;
+    color: $white;
+    margin-bottom: 24px;
+}
+.editorial-title-badge-text {
+    color: $secondary-color;
+    margin-left: 18px;
+    float: left;
+    line-height: 50px;
+	font-size: 28px;
+}
+.editorial-title {
+    font-weight: 600;
+}
+.title-badge-text {
+    float: left;
+    line-height: 50px;
+	font-size: 28px;
+}
+.editorial-title-badge-subtext {
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 24px;
+    float: right;
+    line-height: 50px;
+
+    @include mobile {
+      display: none;
+    }
+}
+.featured-post-title {
+  margin-top: 16px;
+  &:hover a {
+    color: $secondary-color !important;
+  }
+}

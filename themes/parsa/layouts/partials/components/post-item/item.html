@@ -1,0 +1,27 @@
+<div class="col-sm-6 mb-5 placeholders">
+	<article class="placeholder wave">
+		<div class="image-placeholder mb-4 img-fluid">
+			<div class="content"></div>
+		</div>
+		<li class="category-placeholder list-inline-item"><div class="category-line"></div></li>
+		<li class="post-author-container list-inline-item"><div class="author-line"></div></li>
+		<div class="post-title-container"><div class="title-line h4"></div></div>
+		<div class="summary-line"></div>
+		<div class="summary-line"></div>
+		<div class="summary-line"></div>
+		<div class="summary-line-short"></div>
+	</article>
+</div>
+<div class="hide col-sm-6 mb-5 articles">
+	<article>
+		<a href="{{.Permalink}}">
+			<img class="img-fluid mb-4 rounded" src="{{.Params.Image | absURL }}" />
+		</a>
+		{{ range .Params.Categories }}
+		<a class="post-category mb-2" href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . }}</a>
+		{{ end }}
+		<li class="post-author-container item-block list-inline-item">{{ partial "functions/author-name.html" . }}</li>
+		<h4 class="post-title-container"><a class="text-dark" href="{{.Permalink}}">{{ replace .Title "#TodayIKnew: " " "}}</a></h4>
+		<p>{{.Summary}} <a href="{{.Permalink}}">Read More</a></p>
+	</article>
+</div>

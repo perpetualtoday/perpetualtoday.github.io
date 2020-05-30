@@ -1,0 +1,42 @@
+{{ $authors := partialCached "functions/sub/GetArticleAuthors" . .File.UniqueID }}
+{{ if eq (len $authors) 1 }}
+{{ with $author := index $authors 0 }}
+<a href="{{ .URL }}">
+    {{ with .avatar }}
+    <li class="author-single-name list-inline-item"><img src="{{ . }}" class="mobile-hide author-single-image rounded-circle" />
+        {{ end }}
+        {{ with .name }}
+        {{ . }}
+        {{ end }}
+    </li>
+</a>
+{{ end }}
+{{ else }}
+{{ $avatarsWidth:= mul (len $authors) 15 }}
+<li class="list-inline-item">
+{{ range $index, $author := $authors }}
+{{ with .avatar }}
+<div class="mobile-hide author-multi-image" style="left: {{ mul $index 15 }}px;">
+    <img src="{{ . }}" />
+</div>
+{{ end }}
+{{ end }}
+<button class="btn btn-authors dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: {{ mul $avatarsWidth 1.55 }}px;" >
+{{ range $index, $author := $authors }}
+{{ .firstname }}{{ if ne (add $index 1) (len $authors) }},{{ end }}
+{{ end }}
+</button>
+<div class="dropdown-menu">
+    <h6 class="dropdown-header">Authors</h6>
+    {{ range $index, $author := $authors }}
+    <a class="dropdown-item author-single-name list-inline-item" href="{{ .URL }}">
+        {{ with .avatar }}
+        <img src="{{ . }}" class="author-single-image rounded-circle" />
+        {{ end }}
+        {{ with .name }}
+        {{ . }}
+        {{ end }}
+    </a>
+    {{ end }}
+</li>
+{{ end }}

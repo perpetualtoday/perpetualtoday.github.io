@@ -1,0 +1,14 @@
+      <div class="glide__slide">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="{{.Params.Image | absURL}}" alt="post-thumb">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              {{ range .Params.Categories }}
+              <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"><p class="post-category mb-2">{{ . }}</p></a>
+              {{ end }}
+              <h4 class="mobile-h2 featured-post-title post-title-container card-title mb-4"><a class="text-white" href="{{.Permalink}}">{{ replace .Title "#TodayIKnew: " " "}}</a></h4>
+              <a class="btn btn-outline-light" href="{{.Permalink}}">read more</a>
+            </div>
+          </div>
+        </article>
+      </div>

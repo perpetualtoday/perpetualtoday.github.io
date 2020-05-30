@@ -1,0 +1,76 @@
+
+
+.placeholder{
+  z-index: 2;
+}
+
+.placeholder div{background:#E8E8E8;}
+
+.placeholder .image-placeholder {
+  @include aspect-ratio(3, 2);
+  display: block;
+  float:left;
+  width: 100%;
+}
+
+.placeholder .author-line {
+	height:12px;
+	width: 150px;
+}
+
+.placeholder .title-line {
+	margin-bottom: 12px;
+	height: 32px;
+	width: 100%;
+}
+.placeholder .category-line {
+	height: 30px;
+	width: 70px;
+}
+.category-placeholder {
+	width: 100%;
+}
+.placeholder .summary-line {
+	margin-bottom: 8px;
+	height: 12px;
+	width: 100%;
+}
+.placeholder .summary-line-short {
+	margin-bottom: 8px;
+	height: 12px;
+	width: 75%;
+}
+
+.placeholder .circle{
+  float:left;
+  width: 15px;
+  height:15px;
+  margin:0 15px 10px 0;
+  border-radius:15px;
+}
+
+.placeholder.wave div{
+    animation: wave 1s infinite linear forwards;
+    -webkit-animation:wave 1s infinite linear forwards;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+}
+
+@keyframes wave{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+@-webkit-keyframes wave{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
