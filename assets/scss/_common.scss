@@ -114,6 +114,11 @@ ul {
   margin: 0px;
 }
 
+.bullets ol,
+.bullets ul {
+  list-style-type: circle;
+}
+
 img {
   vertical-align: middle;
   border: 0;

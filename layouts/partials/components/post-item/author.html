@@ -14,7 +14,7 @@
 <div class="hide col-sm-6 mb-5 articles">
 	<article>
 		<a href="{{.Permalink}}">
-			<img class="img-fluid mb-4 rounded" src="{{.Params.Image | absURL }}" />
+			<img class="img-fluid mb-4 rounded lazy" src="{{.Params.Image | absURL }}?nf_resize=fit&w=3&h=2" data-src="{{.Params.Image | absURL }}" />
 		</a>
 		{{ range .Params.Categories }}
 		<a class="post-category mb-2" href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . }}</a>

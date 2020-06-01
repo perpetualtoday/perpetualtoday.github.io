@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="article-title-container" id="article">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4 class="text-dark mt-4 mb-4">{{ replace .Title "#TodayIKnew: " " "}}</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <article class="py-3 content">
+          <img src="{{ .Site.Params.brand.logo | absURL }}" alt="post-thumb" class="img-fluid footer-logo float-left mr-5 mb-4">
+          <p>Perpetual Today is founded upon the principles of truth, integrity and a complete disregard for bias. Ethical journalism aims to ensure the open, correct and comprehensive sharing of facts. It is the dignity of a responsible journalist.</p>
+          <p>This page describes these 4 values as the cornerstone of professional newsgathering, adapted from the <a href="https://www.spj.org/ethicscode.asp">Society of Professional Journalists</a>’ Code of Ethics. It urges all members of this organization to follow them.</p>
+          </br>
+          <span class="bullets">
+          {{.Content}}
+          </span>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+</section>
+{{ end }}

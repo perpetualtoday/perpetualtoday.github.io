@@ -71,6 +71,7 @@
 
         hidePreloader();
         hidePlaceholder();
+        lazyLoadImages();
 
         if ($('div').is('#fb-root')) {
             FB.XFBML.parse();

@@ -2,6 +2,11 @@
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
+    function lazyLoadImages() {
+        let lazyImages = document.querySelectorAll(".lazy");
+        new LazyLoad(lazyImages);
+    }
+
     function showPreloader() {
         var preloaderScreen = document.getElementById('preloader');
         preloaderScreen.classList.remove('hide', 'fade-out');
@@ -86,6 +91,7 @@
                 behavior: 'smooth'
             });
             hidePlaceholder();
+            lazyLoadImages();
         }
 
         httpRequest.responseType = "document";
