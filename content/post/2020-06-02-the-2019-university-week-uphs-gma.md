@@ -2,7 +2,7 @@
 type: post
 title: The 2019 University Week - UPHS-GMA
 description: Let's take a look at what happened on 2019's University Week at the
-  University of Perpetual Help - GMA Campus
+  University of Perpetual Help - GMA Campus.
 authors:
   - Janie Marie Peleño
   - Sophia Morena Tauxe
