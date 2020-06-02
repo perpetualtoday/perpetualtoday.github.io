@@ -23,7 +23,7 @@ collections:
       - {label: "Updated Date", required: false, name: "lastmod", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Photo Credit", required: false, name: "credit", widget: "string"}
-      - {label: "Category", name: "categories", widget: "select", multiple: true, min: 1, max: 1, options: ["News", "Sports", "TodayIKnew"]}
+      - {label: "Category", name: "categories", widget: "select", multiple: true, min: 1, max: 1, options: ["News", "Sports", "TodayIKnew", "Feature", "Spotlight"]}
       - {label: "Tags", required: false, name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "students-voice" # Used in routes, e.g., /admin/collections/blog
