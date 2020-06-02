@@ -9,4 +9,3 @@ HUGO_VERSION = "0.72.0"
   from = "/*"
   to = "/404/"
   status = 404
-  force = true
