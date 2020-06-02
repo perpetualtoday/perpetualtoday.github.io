@@ -7,8 +7,8 @@ description: The University of Perpetual Help System (JONELTA Campus) month's
   that they worked on and practiced the entire month of August.
 authors:
   - Resty Gumarao
-date: 2020-06-02T05:32:03.741Z
-lastmod: 2020-06-02T05:32:03.772Z
+date: 2020-06-02T05:30:00.000Z
+lastmod: ""
 image: /assets/images/bnw.png
 categories:
   - Feature
