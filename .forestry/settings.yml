@@ -1,0 +1,83 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/static/admin/"
+webhook_url: ''
+sections:
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/offline
+  label: Offline
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/browse
+  label: Browse
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/404
+  label: '404'
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ethics
+  label: Ethics
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/search
+  label: Search
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/about
+  label: About
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/post
+  label: Articles
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: directory
+  path: content/students-voice
+  label: Student's Voice (Editorial)
+  create: documents
+  match: "**/*"
+  templates:
+  - editorial
+- type: directory
+  path: content/authors
+  label: Authors
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+upload_dir: static/assets/images
+public_path: "/assets/images"
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":year:/:month:/:day:/:filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.63.3
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.63.2

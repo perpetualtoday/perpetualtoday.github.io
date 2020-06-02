@@ -1,52 +1,55 @@
-<!doctype html>
-<html><head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Perpetual Today CMS</title>
-  <meta name="google-site-verification" content="6BJtQk7LSLAD4_8BMqlzIFjlbz8YomtqW5m8W9M1KFc" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/brand/favicon/favicon-16x16.png">
-  <link rel="mask-icon" href="/assets/brand/favicon/safari-pinned-tab.svg" color="#01579b">
-  <link rel="shortcut icon" href="/assets/brand/favicon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#0277bd">
-  <meta name="msapplication-config" content="/assets/brand/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#01579b">
-  <meta content=noindex name=robots>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <style>
-  aside a span {
-  display: inline-flex !important;
-  justify-content: center;
-  align-items: center
-  }
-  aside a span svg {
-  display: none !important;
-  }
-  aside a span::before {
-  font-family: "Font Awesome 5 Free";
-  font-size: 1rem;
-  }
-  aside a[href="#/collections/post"] span::before {
-  content: "\f304";
-  }
-  aside a[href="#/collections/students-voice"] span::before {
-  content: "\f15c";
-  }
-  aside a[href="#/collections/authors"] span::before {
-  content: "\f2b9";
-  }
-  aside a[href="#/collections/officers"] span::before {
-  content: "\f0e8";
-  }
-  aside a[href="#/collections/settings"] span::before {
-  content: "\f085";
-  }
-  </style>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<!-- forestryio: ignore; forestryio: admin -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex" />
+    <title>Admin</title>
+    <meta name="description" content=" " />
+    <meta name="author" content=" " />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Fort awesome icon kit -->
+    <script src="https://use.fortawesome.com/b6f38602.js"></script>
+
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<div id="app">
+
+</div>
+<script id="admin-config-script" type="text/javascript">
+  var env = {
+      siteId: "wdy5emcayvxmew",
+      local: false
+  };
+
+  function uuidv4() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }
+
+  var uuid = uuidv4()
+  var script = document.createElement('script');
+  script.src = "https://app.forestry.io/admin/forestry.min.js?hash=" + uuid
+  script.id = "forestry-admin";
+  document.body.appendChild(script);
+
+  var link = document.createElement("link");
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.href = "https://app.forestry.io/admin/main.css?hash=" + uuid
+  document.head.appendChild(link);
+
+</script>
+
 </body>
 </html>
