@@ -7,6 +7,7 @@ authors:
   - Janie Marie Peleño
   - Sophia Morena Tauxe
   - Micaiah Psyche Lumigis
+  - Ivy Mambanon
 date: 2020-06-02T05:45:37.220Z
 lastmod: ""
 image: /assets/images/uweek.png
@@ -14,6 +15,8 @@ categories:
   - Feature
 ---
 ### Strive For Victory
+
+![](/assets/images/img_1515.jpg)
 
 After a long preparation for this year’s University week, the Perpetualite community have witnessed how different department showcased their skills in the league of sports, from volleyball, basketball, futsal, soccer, badminton, swimming, darts, table tennis, chess, and track n’field. Total of seven (7) departments have competed in each category. The SHS (Senior High School), BED (Basic Education), CASE (College of Arts and Education), COE (College of Engineering), CBA (College of Business and Accountancy), CIHTM (College of International Hospitality and Tourism Management), CCS (College of Computer Science) and Allied Health that have been counted as one group.
 
@@ -30,6 +33,8 @@ At the awarding night on the last day of the University Week 2019, the SHS depar
 
 
 ### Laro Ng Lahi
+
+![](/assets/images/img_1960.jpg)
 
 On the 3rd day of the celebration of the University week, the students were thrilled as they joined the Palaro ng Lahi spearheaded by the SSG officers and their coordinators. The first game was the nostalgic Patintero where BED landed on the 3rd place spot, CCS/Allied health on the 2nd place, CASE on the 1st place and CIHTM emerged as the champion. The next game was Tug of War where CASE got the 3rd place, BED on the 2nd place, SHS as the 1st place and COE appeared as the champion. Palo sebo comes after where the SHS got the 3rd place, COE on the 2nd place, CASE as the 1st place and CCS/Allied health as the champion. The CASE acknowledged as the champion for the last game, *agawang buko.*
 
