@@ -10,7 +10,7 @@ authors:
   - Ivy Mambanon
 date: 2020-06-02T05:45:37.220Z
 lastmod: ""
-image: /assets/images/uweek.png
+image: /assets/images/uweek-new.png
 categories:
   - Feature
 ---
