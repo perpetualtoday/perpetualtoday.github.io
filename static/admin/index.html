@@ -13,6 +13,36 @@
   <meta name="msapplication-config" content="/assets/brand/favicon/browserconfig.xml">
   <meta name="theme-color" content="#01579b">
   <meta content=noindex name=robots>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style>
+  aside a span {
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center
+  }
+  aside a span svg {
+  display: none !important;
+  }
+  aside a span::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  }
+  aside a[href="#/collections/post"] span::before {
+  content: "\f5a1";
+  }
+  aside a[href="#/collections/students-voice"] span::before {
+  content: "\f15c";
+  }
+  aside a[href="#/collections/authors"] span::before {
+  content: "\f2b9";
+  }
+  aside a[href="#/collections/officers"] span::before {
+  content: "\f0e8";
+  }
+  aside a[href="#/collections/settings"] span::before {
+  content: "\f085";
+  }
+  </style>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
