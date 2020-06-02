@@ -3,8 +3,8 @@ type: post
 title: Skin Care for Millennials
 description: Being a millennial is like a rollercoaster ride. Balancing your
   studies and social life, your new-found freedom, dates, career, and gushing
-  hormones. Too much to handle, right? And then comes another problem – skin
-  care.
+  hormones. Too much to handle, right? And then comes another problem –
+  skincare.
 authors:
   - Resty Gumarao
 date: 2020-05-20T05:00:00.000Z
