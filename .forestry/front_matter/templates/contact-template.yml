@@ -1,0 +1,21 @@
+---
+label: Contact Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+  hidden: true
+  default: contact
+pages:
+- content/contact/_index.md

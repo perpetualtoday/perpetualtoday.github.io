@@ -1,0 +1,49 @@
+---
+label: Author
+hide_body: false
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Full Name
+  description: Full name of author
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Author Image
+  description: Picture of the author
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  hidden: true
+  default: author
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: Facebook
+  description: e.g. PerpetualToday for (fb.com/PerpetualToday)
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: Twitter
+  description: e.g. PerpetualToday for @PerpetualToday
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+  description: e.g. PerpetualToday for @PerpetualToday
+pages:
+- content/authors/janie-marie-peleno.md
+- content/authors/john-vincent-corcega.md
+- content/authors/micaela-denise-sarra.md
+- content/authors/micaiah-psyche-lumigis.md
+- content/authors/resty-gumarao.md
+- content/authors/sophia-morena-tauxe.md

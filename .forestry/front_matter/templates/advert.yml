@@ -1,0 +1,18 @@
+---
+label: Advert
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: Enable Ad on the Sidebar
+- type: file
+  name: image
+  label: Image shown
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link to website
+  description: Link to the website described by the advertisement
+pages:
+- data/advertising.yml

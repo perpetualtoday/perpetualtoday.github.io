@@ -1,0 +1,182 @@
+---
+label: Page Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: URL of Website
+- type: text
+  name: languageCode
+  label: languageCode
+  default: en-US
+  hidden: true
+- type: text
+  name: title
+  label: Website name
+- type: text
+  name: theme
+  label: theme
+  default: liva
+  hidden: true
+- type: text
+  name: summaryLength
+  label: summaryLength
+  hidden: true
+  default: '10'
+- type: number
+  name: paginate
+  label: paginate
+  default: '1'
+  hidden: true
+- type: text
+  name: disqusShortname
+  label: disqusShortname
+  default: perpetualtoday
+  hidden: true
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+  hidden: true
+- type: field_group
+  name: params
+  fields:
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: URL
+        label: URL
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: URL
+        label: URL
+    hidden: true
+  - type: file
+    name: logo
+    label: Logo
+  - type: file
+    name: logoalt
+    label: Logo with Text/Alternative Logo
+  - type: text
+    name: home
+    label: home
+    hidden: true
+  - type: text
+    name: description
+    label: Website Description
+  - type: text
+    name: author
+    label: author
+    hidden: true
+  - type: text
+    name: googleAnalitycsID
+    label: Google Analytics ID
+  - type: text
+    name: messenger
+    label: Facebook Messenger
+  - type: text
+    name: instagram
+    label: Instagram
+  - type: text
+    name: email
+    label: E-mail Address
+  - type: text
+    name: location
+    label: Location
+  - type: textarea
+    name: copyright
+    label: copyright
+    hidden: true
+  - type: field_group
+    name: preloader
+    label: preloader
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: file
+      name: preloader
+      label: preloader
+      hidden: true
+    hidden: true
+  - type: field_group
+    name: search
+    label: Search Box
+    fields:
+    - type: boolean
+      name: enable
+      label: Enable search box
+  - type: field_group
+    name: newsletter
+    label: Newsletter
+    fields:
+    - type: boolean
+      name: enable
+      label: Enable Newsletter
+    - type: text
+      name: title
+      label: Newsletter title
+    - type: text
+      name: content
+      label: Newsletter description
+  - type: field_group_list
+    name: social
+    label: social
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: link
+      label: link
+    hidden: true
+  label: More Settings
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: URL
+      label: URL
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: footer
+    label: footer
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: URL
+      label: URL
+    - type: number
+      name: weight
+      label: weight
+    hidden: true
+  hidden: true
+pages:
+- config.toml

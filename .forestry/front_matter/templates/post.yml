@@ -1,34 +1,76 @@
 ---
 label: Post
 hide_body: false
+display_field: title
 fields:
-- type: list
-  name: authors
-  label: authors
-- type: list
-  name: categories
-  label: categories
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: description
-  label: description
-- type: file
-  name: image
-  label: image
-- type: text
-  name: lastmod
-  label: lastmod
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: title
-  label: title
+  label: Title
+  description: Title of the post
+  config:
+    required: true
+- type: text
+  name: description
+  label: Short Description
+  description: Short description or excerpt of the article
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date Published
+  description: Date the post was published.
+  config:
+    required: true
+  default: now
+- type: datetime
+  name: lastmod
+  label: Date Updated
+  description: Date the article was updated. Only needed to fill up if the article
+    is updated.
+  default: ''
+- type: list
+  name: authors
+  label: Authors
+  description: Make sure it is already added on the authors tab or the website won't
+    save.
+  config:
+    use_select: false
+    source:
+      type: pages
+      section: authors
+    min: ''
+- type: file
+  name: image
+  label: Hero Image
+  description: Featured image at the top of the article.
+- name: credit
+  type: text
+  config:
+    required: false
+  label: Photo Credit
+  description: Credit to the owner of the hero photo
+- type: list
+  name: categories
+  label: Categories
+  description: Categories where the post is applicable
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Post tags go here.
 - type: text
   name: type
   label: type
-- type: text
-  name: credit
-  label: credit
+  hidden: true
+  default: post
+pages:
+- content/post/a-magical-musical-masterpiece-many-moons-and-saffron.md
+- content/post/intertainment-dance-evoluton-jazz-chant-and-musical-play.md
+- content/post/parade-of-saints.md
+- content/post/perpetual-victories-during-the-heartpumping-gma-isa-event.md
+- content/post/road-to-team-east-cavite.md
+- content/post/senior-high-school-orientation-jumpstarts-shs-classes.md
+- content/post/shs-starts-high-on-perpetual-gma.md
+- content/post/the-future-is-now-innovation-through-robotic-automation.md
+- content/post/todayiknew-dragon-s-breath-small-but-terrible-meet-the-world-s-hottest-and-deadly-chili.md
+- content/post/todayiknew-the-30-kilobyte-file-that-vitiated-the-world.md
