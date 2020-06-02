@@ -13,40 +13,62 @@
   <meta name="msapplication-config" content="/assets/brand/favicon/browserconfig.xml">
   <meta name="theme-color" content="#01579b">
   <meta content=noindex name=robots>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <style>
-  aside a span {
-  display: inline-flex !important;
-  justify-content: center;
-  align-items: center
-  }
-  aside a span svg {
-  display: none !important;
-  }
-  aside a span::before {
-  font-family: "Font Awesome 5 Free";
-  font-size: 1rem;
-  }
-  aside a[href="#/collections/post"] span::before {
-  content: "\f5a1";
-  }
-  aside a[href="#/collections/students-voice"] span::before {
-  content: "\f15c";
-  }
-  aside a[href="#/collections/authors"] span::before {
-  content: "\f2b9";
-  }
-  aside a[href="#/collections/officers"] span::before {
-  content: "\f0e8";
-  }
-  aside a[href="#/collections/settings"] span::before {
-  content: "\f085";
-  }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+<link href="https://unpkg.com/netlify-cms/dist/cms.css" rel="stylesheet" />
+<style>
+    .nc-collectionPage-sidebarLink i {
+        font-size: 19px;
+        line-height: 24px;
+        margin-left: -1px;
+    }
+</style>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    icons = [
+      {"name": "post","fa": "marker"},
+      {"name": "students-voice","fa": "marker"},
+      {"name": "authors","fa": "user-circle"},
+      {"name": "officers","fa": "user-friends"},
+      {"name": "settings","fa": "cogs"}
+    ]
+
+  function iconify() {
+      icons.forEach(function(item) {
+          var selector = "a[href$='" + item.name + "'] .nc-icon span";
+          var loc = document.querySelector(selector);
+          var i = document.createElement("i");
+          i.classList.add("fa", "fa-fw", "fa-" + item.fa);
+          i.setAttribute("aria-hidden", "true");
+          if (loc) {
+              while (loc.firstChild) loc.removeChild(loc.firstChild);
+              loc.appendChild(i);
+          }
+      })
+  }
+
+  var observer = new MutationObserver(function(changes) {
+      iconify();
+  });
+
+  var init = new MutationObserver(function(changes) {
+      var exists = !!document.querySelector(".nc-app-main div");
+
+      if (exists) {
+          iconify();
+          observer.observe(document.querySelector('.nc-app-main div'), {
+              childList: true
+          });
+          init.disconnect();
+      }
+  });
+
+  init.observe(document.querySelector('body'), {
+      childList: true
+  });
+</script>
 </body>
 </html>
