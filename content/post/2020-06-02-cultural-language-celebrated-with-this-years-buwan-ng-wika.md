@@ -9,7 +9,7 @@ authors:
   - Resty Gumarao
 date: 2019-08-30T05:30:00.000Z
 lastmod: ""
-image: /assets/images/bnw.png
+image: /assets/images/bnw-new.png
 categories:
   - Feature
 ---
