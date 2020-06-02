@@ -6,7 +6,7 @@
 
 .placeholder div{background:#E8E8E8;}
 
-.placeholder .image-placeholder {
+.image-placeholder {
   @include aspect-ratio(3, 2);
   display: block;
   float:left;
