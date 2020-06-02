@@ -1,7 +1,7 @@
 <div class="glide__slide editorial-slider-card-container">
 	<article class="media">
 		{{ $thumb := partial "functions/author-photo.html" . }}
-		<div class="author-thumb mr-3" style="background-image: url('{{ $thumb }}');"></div>
+		<div class="author-thumb mr-3" style="background-image: url('{{ $thumb }}?nf_resize=fit&w=200&h=200');"></div>
 		<div class="media-body">
 			<div class="mb-2">
 				  <span class="list-inline-item">{{ partial "functions/author-name.html" . }}</span>
