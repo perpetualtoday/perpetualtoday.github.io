@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Article
 hide_body: false
 display_field: title
 fields:
@@ -15,6 +15,16 @@ fields:
   description: Short description or excerpt of the article
   config:
     required: true
+- type: list
+  name: authors
+  label: Author/s
+  description: To add your name, make a new author in the <strong>Authors </strong>section.
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
+    min: 1
 - type: datetime
   name: date
   label: Date Published
@@ -28,17 +38,6 @@ fields:
   description: Date the article was updated. Only needed to fill up if the article
     is updated.
   default: ''
-- type: list
-  name: authors
-  label: Authors
-  description: Make sure it is already added on the authors tab or the website won't
-    save.
-  config:
-    use_select: true
-    source:
-      type: pages
-      section: authors
-    min: 1
 - type: file
   name: image
   label: Hero Image
@@ -52,7 +51,17 @@ fields:
 - type: list
   name: categories
   label: Categories
-  description: Categories where the post is applicable
+  description: Categories where the post is applicable.
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - TodayIKnew
+    - News
+    - Feature
+    - Spotlight
+    - Sports
 - name: tags
   type: tag_list
   default: []
