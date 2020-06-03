@@ -4186,7 +4186,11 @@ input[type="button"] {
 }
 
 .wrapper.login {
-  background: #333333;
+  background-image: url("/writer/login-bg.jpg");
+  background-color: #1c1c1c;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-y: scroll
 }
 
@@ -4229,7 +4233,7 @@ input[type="button"] {
   padding: 2em 3em;
   margin: 4rem 0;
   margin-bottom: 0px;
-  border-radius: .15rem;
+  border-radius: 6px;
   box-shadow: 0 20px 40px -20px #1c1c1c
 }
 
@@ -4283,16 +4287,17 @@ input[type="button"] {
 }
 
 .wrapper.login .login-form--container a.forgot-password {
-  color: silver;
+  color: #fff;
+  opacity: : .75;
   font-size: .8rem;
   margin-bottom: 3rem;
   padding-bottom: .4rem;
-  border-bottom: 1px solid #414141;
-  transition: border-color 320ms ease
+  padding-top: 4rem;
+  transition: opacity 320ms ease
 }
 
 .wrapper.login .login-form--container a.forgot-password:hover {
-  border-color: silver
+  opacity: : 1.0;
 }
 
 .wrapper.login .login-form--container a.poweredby-forestry {
@@ -6048,6 +6053,10 @@ p.Sidebar-m__error___1nNkn {
   -webkit-overflow-scrolling: touch
 }
 
+.hcxvKS {
+  display: none !important;
+}
+
 .sc-bGbJRg {
   background: #01477f !important;
   border-top: 0 !important;
@@ -6057,8 +6066,15 @@ p.Sidebar-m__error___1nNkn {
   border-left: 6.5px solid #0082e6 !important;
 }
 
+.jyzwxU {
+  border-left: 6.5px solid #0082e6 !important;
+}
+
+.sc-jAaTju {
+  border-left: 6.5px solid #0082e6 !important;
+}
+
 .sc-iRbamj {
-  color: #0082e6 !important;
   border-color: #0082e6 !important;
 }
 
@@ -6067,7 +6083,17 @@ p.Sidebar-m__error___1nNkn {
   color: #fff !important;
 }
 
+.cXIXBk {
+  color: #0082e6 !important;
+  border-color: #0082e6 !important;
+}
+
 .KSCtm  {
+  background: #0082e6 !important;
+  color: #fff !important;
+}
+
+.ifoSHx {
   background: #0082e6 !important;
   color: #fff !important;
 }
