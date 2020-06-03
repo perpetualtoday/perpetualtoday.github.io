@@ -14,5 +14,3 @@ fields:
     required: false
   label: Link to website
   description: Link to the website described by the advertisement
-pages:
-- data/advertising.yml
