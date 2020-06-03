@@ -21,6 +21,7 @@
   }
 </script>
 
-{{ "<!-- Main Script -->" | safeHTML }}
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=610430409741888&autoLogAppEvents=1"></script>
+
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>

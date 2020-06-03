@@ -73,7 +73,7 @@
         hidePlaceholder();
         lazyLoadImages();
 
-        if ($('div').is('#fb-root')) {
+        if ($('div').is('#fb-comments')) {
             FB.XFBML.parse();
         }
 

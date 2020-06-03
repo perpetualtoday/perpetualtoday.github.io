@@ -2,7 +2,7 @@
 facebook = ""
 image = ""
 instagram = ""
-title = ""
+title = "John Doe"
 twitter = ""
 type = "author"
 

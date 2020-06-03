@@ -21,7 +21,7 @@
 {{ with .Params.authors  }}
   {{ range $name := . }}
     {{ $writer := replace $name ".md" "" }}
-    {{ with site.GetPage (printf $writer) }}
+    {{ with site.GetPage (printf "%s" $writer) }}
       {{ $firstname := "" }}
       {{ $name := "" }}
       {{ $avatar := false }}

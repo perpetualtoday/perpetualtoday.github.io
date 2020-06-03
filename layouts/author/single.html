@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+{{ $profile := .Title }}
+{{ $avatar := false }}
+{{ $twitter := false }}
+{{ $facebook := false }}
+{{ $instagram := false }}
+{{ with site.GetPage (printf "/%s/%s" "authors" ( $profile | urlize)) }}
+  {{ $firstname := "" }}
+  {{ $name := "" }}
+    {{ with .Params.image }}
+  {{ $avatar = . }}
+  {{ end }}
+  {{ with .Params.facebook }}{{ $facebook = . }}{{ end }}
+  {{ with .Params.twitter }}{{ $twitter = . }}{{ end }}
+  {{ with .Params.instagram }}{{ $instagram = . }}{{ end }}
+{{ end }}
+
+<section class="hero-section">
+  <div class="container">
+    <div class="text-center py-5">
+      <img src="{{ $avatar }}" alt class="author-image ui-w-100 rounded-circle">
+      <div class="col-md-8 col-lg-6 col-xl-5 p-0 mx-auto">
+        <h4 class="font-weight-bold my-4">{{ .Title }}</h4>
+        <div class="text-muted mb-4">
+          Social Media Pages
+        </div>
+      </div>
+      <div class="text-center">
+        {{ with $facebook }}
+        <a href="//fb.me/{{ . }}}" class="mx-2 rounded-button btn icon-btn borderless btn-primary btn-lg btn-round">
+          <i class="ti-facebook"></i>
+        </a>
+        {{ end }}
+        {{ with $twitter }}
+        <a href="//twitter.com/{{ . }}" class="mx-2 rounded-button btn icon-btn borderless btn-primary btn-lg btn-round">
+          <i class="ti-twitter"></i>
+        </a>
+        {{ end }}
+        {{ with $instagram }}
+        <a href="//instagr.am/{{ . }}" class="mx-2 rounded-button btn icon-btn borderless btn-primary btn-lg btn-round">
+          <i class="ti-instagram"></i>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+{{ end }}
