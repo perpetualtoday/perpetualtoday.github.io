@@ -6271,12 +6271,11 @@ p.Topbar-m__error___BIOJW {
 
 .Topbar-m__logo___1KA_o {
   line-height: 0;
-  max-width: 70%
 }
 
 .Topbar-m__logo___1KA_o img {
   height: 2rem;
-  width: 50%;
+  width: auto;
   max-width: 100%
 }
 
