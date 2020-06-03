@@ -1,18 +1,19 @@
 ---
-type: post
 title: The 2019 University Week - UPHS-GMA
-description: Let's take a look at what happened on 2019's University Week at the
-  University of Perpetual Help - GMA Campus.
+description: Let's take a look at what happened on 2019's University Week at the University
+  of Perpetual Help - GMA Campus.
 authors:
-  - Janie Marie Peleño
-  - Sophia Morena Tauxe
-  - Micaiah Psyche Lumigis
-  - Ivy Mambanon
-date: 2020-06-02T05:45:37.220Z
-lastmod: ""
-image: /assets/images/uweek-new.png
+- authors/ivy-mambanon.md
+- authors/sophia-morena-tauxe.md
+- authors/janie-marie-peleno.md
+- authors/micaiah-psyche-lumigis.md
+date: 2020-06-02T05:45:37.220+00:00
+lastmod: 
+image: "/assets/images/uweek-new.png"
 categories:
-  - Feature
+- Feature
+draft: true
+
 ---
 ### Strive For Victory
 
