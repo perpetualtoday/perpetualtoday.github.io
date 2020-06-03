@@ -6228,7 +6228,6 @@ p.Topbar-m__error___BIOJW {
 }
 
 .Topbar-m__header___2npNM.Topbar-m__expanded___3vC0A>.Topbar-m__header-top___2YqaW {
-  border-bottom: 1px solid #282828
 }
 
 .Topbar-m__header___2npNM.Topbar-m__expanded___3vC0A>.Topbar-m__menu-content___35oXa {
@@ -6238,7 +6237,7 @@ p.Topbar-m__error___BIOJW {
 }
 
 .Topbar-m__header-top___2YqaW {
-  background: #1c1c1c;
+  background: #01477f;
   color: #f3f3f3;
   display: -ms-flexbox;
   display: flex;
@@ -6276,7 +6275,8 @@ p.Topbar-m__error___BIOJW {
 }
 
 .Topbar-m__logo___1KA_o img {
-  height: 2rem;
+  height: 50%;
+  width: 50%;
   max-width: 100%
 }
 
@@ -6304,7 +6304,7 @@ p.Topbar-m__error___BIOJW {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #1c1c1c;
+  background: #0164b1s;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
