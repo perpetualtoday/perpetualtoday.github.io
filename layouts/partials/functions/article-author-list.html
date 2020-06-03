@@ -1,4 +1,4 @@
-{{ $authors := partialCached "functions/sub/GetArticleAuthors" . .File.UniqueID }}
+{{ $authors := partialCached "functions/sub/GetArticleAuthorsByTitle" . .File.UniqueID }}
 {{ if eq (len $authors) 1 }}
 {{ with $author := index $authors 0 }}
 <a href="{{ .URL }}">

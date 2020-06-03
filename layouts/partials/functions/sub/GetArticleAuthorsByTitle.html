@@ -18,14 +18,13 @@
     {{ $authors := partialCached "functions/sub/GetArticleAuthors" . .File.UniqueID }}
 */}}
 {{ $authors := slice }}
-{{ with .Page.Params.title  }}
-    {{ with site.GetPage (printf "/%s/%s" "authors" (  . | urlize)) }}
+{{ with .Params.authors  }}
+  {{ range $name := . }}
+    {{ $writer := replace $name ".md" "" }}
+    {{ with site.GetPage (printf $writer) }}
       {{ $firstname := "" }}
       {{ $name := "" }}
       {{ $avatar := false }}
-      {{ $twitter := false }}
-      {{ $facebook := false }}
-      {{ $instagram := false }}
       {{ with .Title }}
         {{ $name = . }}
         {{ $firstname = index (split . " ") 0 }}
@@ -35,6 +34,7 @@
       {{ end }}
       {{ $authors = $authors | append (dict "URL" .RelPermalink "name" $name "firstname" $firstname "avatar" $avatar) }}
     {{ end }}
+  {{ end }}
 {{ end }}
 
 {{ return $authors }}
