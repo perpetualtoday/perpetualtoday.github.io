@@ -8,18 +8,19 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          {{ $authors := partialCached "functions/sub/GetArticleAuthors" . .File.UniqueID }}
+          <li class="list-inline-item">
+          {{ $authors := partialCached "functions/sub/GetArticleAuthorsByTitle" . .File.UniqueID }}
           {{ if eq (len $authors) 1 }}
           {{ with $author := index $authors 0 }}
-             {{ with .name }}
-                                  <li class="list-inline-item">Post by {{ . }}</li>
-                                  {{ end }}
-                      {{ end }}
-                  {{ else }}
-                      {{ range $index, $author := $authors }}
-                      <li class="list-inline-item">Post by {{ .firstname }}{{ if ne (add $index 1) (len $authors) }},{{ end }}{{ end }}</li>
-                  {{ end }}
-          <li class="list-inline-item">{{ .PublishDate.Format "Jan 02, 2006" }}</li>
+          {{ with .name }}
+          {{ . }}
+          {{ end }}
+          {{ end }}
+          {{ else }}
+          {{ range $index, $author := $authors }}
+          {{ .firstname }}{{ if ne (add $index 1) (len $authors) }},{{ end }}{{ end }}
+          {{ end }}
+          </li>
         </ul>
         <h6><a class="text-dark" href="{{ .Permalink }}">{{.Title}}</a></h6>
       </div>
