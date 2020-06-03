@@ -13,7 +13,7 @@ sections:
   - post
 - type: directory
   path: content/students-voice
-  label: Student's Voice (Editorial)
+  label: Student's Voice
   create: documents
   match: "**/*"
   templates:
@@ -22,7 +22,7 @@ sections:
   path: content/authors
   label: Authors
   create: documents
-  match: "**/*"
+  match: "**/*.md"
   templates:
   - author
 - type: heading
@@ -30,6 +30,9 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About Perpetual Today
+- type: document
+  path: data/about.yml
+  label: Officers
 - type: document
   path: content/ethics/_index.md
   label: Code of Conduct
@@ -39,14 +42,8 @@ sections:
 - type: heading
   label: Site Settings
 - type: document
-  path: data/advertising.yml
-  label: Advertisement
-- type: document
   path: config.toml
-  label: Configuration
-- type: document
-  path: data/about.yml
-  label: Perpetual Today Members
+  label: Site Settings
 upload_dir: static/assets/images
 public_path: "/assets/images"
 front_matter_path: ''
