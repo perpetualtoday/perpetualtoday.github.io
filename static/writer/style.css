@@ -4288,7 +4288,7 @@ input[type="button"] {
 
 .wrapper.login .login-form--container a.forgot-password {
   color: #fff;
-  opacity: : .75;
+  opacity: : .5;
   font-size: .8rem;
   margin-bottom: 3rem;
   padding-bottom: .4rem;
@@ -4297,7 +4297,8 @@ input[type="button"] {
 }
 
 .wrapper.login .login-form--container a.forgot-password:hover {
-  opacity: : 1.0;
+  color: #fff;
+  opacity: 1.0;
 }
 
 .wrapper.login .login-form--container a.poweredby-forestry {
@@ -6054,6 +6055,14 @@ p.Sidebar-m__error___1nNkn {
 }
 
 .hcxvKS {
+  display: none !important;
+}
+
+.liFEio {
+  display: none !important;
+}
+
+.sc-cugefK {
   display: none !important;
 }
 
