@@ -34,9 +34,9 @@ fields:
   description: Make sure it is already added on the authors tab or the website won't
     save.
   config:
-    use_select: false
+    use_select: true
     source:
-      type: pages
+      type: documents
       section: authors
     min: ''
 - type: file
