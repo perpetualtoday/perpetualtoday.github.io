@@ -1,5 +1,5 @@
 +++
-authors = ["Resty Gumarao"]
+authors = ["authors/resty-gumarao.md"]
 categories = ["Student's Voice"]
 credit = ""
 date = 2020-05-18T07:35:12Z
