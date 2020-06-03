@@ -34,13 +34,13 @@ sections:
   path: data/about.yml
   label: Officers
 - type: document
+  path: content/contact/_index.md
+  label: Contact
+- type: document
   path: content/ethics/_index.md
   label: Code of Conduct
-- type: document
-  path: content/contact/_index.md
-  label: Contact Perpetual Today
 - type: heading
-  label: Site Settings
+  label: Website
 - type: document
   path: config.toml
   label: Site Settings
