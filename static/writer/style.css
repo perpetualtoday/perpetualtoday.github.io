@@ -6023,7 +6023,7 @@ p.Sidebar-m__error___1nNkn {
 }
 
 .Sidebar-m__logo___30ARy img {
-  height: 2rem;
+  height: auto;
   max-width: 100%
 }
 
@@ -6072,15 +6072,15 @@ p.Sidebar-m__error___1nNkn {
 }
 
 .jiObLL {
-  border-left: 6.5px solid #0082e6 !important;
+  border-left-color: #0082e6 !important;
 }
 
 .jyzwxU {
-  border-left: 6.5px solid #0082e6 !important;
+  border-left-color: #0082e6 !important;
 }
 
 .sc-jAaTju {
-  border-left: 6.5px solid #0082e6 !important;
+  border-left-color: #0082e6 !important;
 }
 
 .sc-iRbamj {
@@ -6098,6 +6098,11 @@ p.Sidebar-m__error___1nNkn {
 }
 
 .KSCtm  {
+  background: #0082e6 !important;
+  color: #fff !important;
+}
+
+.cuPiJc  {
   background: #0082e6 !important;
   color: #fff !important;
 }
