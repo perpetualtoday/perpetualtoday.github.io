@@ -12,7 +12,7 @@ fields:
 - name: image
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: Author Image
   description: Picture of the author
 - name: type
