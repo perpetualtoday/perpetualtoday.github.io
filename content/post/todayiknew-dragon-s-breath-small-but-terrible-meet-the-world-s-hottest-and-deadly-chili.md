@@ -1,5 +1,5 @@
 +++
-authors = ["John Vincent Corcega"]
+authors = ["authors/john-vincent-corcega.md"]
 categories = ["TodayIKnew"]
 credit = "Mirrorpix/Newscom via Zuma"
 date = 2020-04-02T02:00:49Z

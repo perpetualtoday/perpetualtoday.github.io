@@ -1,5 +1,5 @@
 +++
-authors = ["Sophia Morena Tauxe"]
+authors = ["authors/sophia-morena-tauxe.md"]
 categories = ["SciTech"]
 credit = "Kenneth Louise Inhaynes"
 date = 2019-10-25T07:45:51Z

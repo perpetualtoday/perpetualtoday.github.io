@@ -1,5 +1,5 @@
 +++
-authors = ["John Vincent Corcega"]
+authors = ["authors/john-vincent-corcega.md"]
 categories = ["TodayIKnew"]
 credit = "u/dx8kb via Reddit"
 date = 2020-03-31T02:50:00Z

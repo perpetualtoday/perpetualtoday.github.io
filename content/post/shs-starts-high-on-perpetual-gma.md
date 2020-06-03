@@ -4,7 +4,7 @@ title: SHS Starts High on Perpetual GMA
 description: Overall, the university has 684 SHS students currently studying,
   with it still accepting new enrolees.
 authors:
-  - Micaela Denise Sarra
+  - authors/micaela-denise-sarra.md
 date: 2019-06-30T16:00:00.000Z
 lastmod: ""
 image: /assets/images/slide1.png

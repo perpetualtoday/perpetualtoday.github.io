@@ -1,5 +1,5 @@
 +++
-authors = ["Micaiah Psyche Lumigis"]
+authors = ["authors/micaiah-psyche-lumigis.md"]
 categories = ["Sports"]
 credit = "Joni De Guzman"
 date = 2019-09-24T16:00:00Z

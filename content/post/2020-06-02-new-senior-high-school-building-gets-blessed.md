@@ -6,7 +6,7 @@ description: A little more than a month after the start of the semester and a
   blessed during the opening ceremony attended by teachers, administrators and
   staff of the University of Perpetual Help.
 authors:
-  - Sophia Morena Tauxe
+  - authors/sophia-morena-tauxe.md
 date: 2020-08-07T05:15:14.439Z
 lastmod: ""
 image: /assets/images/blessing.png

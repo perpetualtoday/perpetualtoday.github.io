@@ -4,7 +4,7 @@ title: Senior High Immersion
 description: On January 10, 2020 officially started the Immersion program of the
   Grade 12—Home Economics (HE) students at Alta D’ Tagaytay.
 authors:
-  - Micaela Denise Sarra
+  - authors/micaela-denise-sarra.md
 date: 2020-06-01T02:30:36.992Z
 lastmod: ""
 image: /assets/images/immersion.png

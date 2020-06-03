@@ -6,7 +6,7 @@ description: The University of Perpetual Help System (JONELTA Campus) month's
   excitement as students of the SHS department showcased their presentations
   that they worked on and practiced the entire month of August.
 authors:
-  - Resty Gumarao
+  - authors/resty-gumarao.md
 date: 2019-08-30T05:30:00.000Z
 lastmod: ""
 image: /assets/images/bnw-new.png

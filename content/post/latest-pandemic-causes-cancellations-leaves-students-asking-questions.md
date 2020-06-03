@@ -1,5 +1,5 @@
 +++
-authors = ["Sophia Morena Tauxe"]
+authors = ["authors/sophia-morena-tauxe.md"]
 categories = ["News"]
 credit = "AlJazeera"
 date = 2020-02-26T08:00:00Z

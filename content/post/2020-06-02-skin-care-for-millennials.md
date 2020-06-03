@@ -6,7 +6,7 @@ description: Being a millennial is like a rollercoaster ride. Balancing your
   hormones. Too much to handle, right? And then comes another problem – skin
   care.
 authors:
-  - Resty Gumarao
+  - authors/resty-gumarao.md
 date: 2020-05-20T05:00:00.000Z
 lastmod: ""
 image: /assets/images/beauty.png

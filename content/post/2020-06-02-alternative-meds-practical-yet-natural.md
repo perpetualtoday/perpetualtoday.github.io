@@ -3,7 +3,7 @@ type: post
 title: "Alternative Meds: Practical Yet Natural"
 description: “Let the food be thy medicine and medicine be thy food.” - Hippocrates
 authors:
-  - Resty Gumarao
+  - authors/resty-gumarao.md
 date: 2020-05-25T07:35:01.857Z
 lastmod: ""
 image: /assets/images/herbal.png

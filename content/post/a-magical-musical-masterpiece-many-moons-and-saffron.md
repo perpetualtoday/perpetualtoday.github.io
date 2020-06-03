@@ -1,5 +1,5 @@
 +++
-authors = ["Janie Marie Peleno", "Janie Marie Peleño"]
+authors = ["authors/janie-marie-peleno.md"]
 categories = ["News"]
 credit = ""
 date = 2020-03-05T04:20:05Z

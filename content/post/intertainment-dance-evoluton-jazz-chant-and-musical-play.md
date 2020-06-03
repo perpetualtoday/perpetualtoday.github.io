@@ -1,5 +1,5 @@
 +++
-authors = ["Sophia Morena Tauxe", "Micaela Denise Sarra"]
+authors = ["authors/sophia-morena-tauxe.md", "authors/micaela-denise-sarra.md"]
 categories = ["News"]
 credit = ""
 date = 2020-02-01T16:00:00Z

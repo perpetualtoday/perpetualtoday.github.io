@@ -1,5 +1,5 @@
 +++
-authors = ["Jharren Dave Bilog"]
+authors = ["authors/jharren-dave-bilog.md"]
 categories = ["News"]
 credit = ""
 date = 2019-09-10T07:30:06Z

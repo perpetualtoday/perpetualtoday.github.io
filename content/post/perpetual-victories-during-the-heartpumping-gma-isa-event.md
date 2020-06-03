@@ -1,5 +1,5 @@
 +++
-authors = ["Resty Gumarao"]
+authors = ["authors/resty-gumarao.md"]
 categories = ["Sports"]
 credit = "Kenneth Louise Inhaynes"
 date = 2019-08-21T16:00:00Z
