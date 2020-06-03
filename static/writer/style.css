@@ -5395,14 +5395,13 @@ h3 {
   padding-bottom: 1em
 }
 
-.Navigation-m__label___1lCkw,
-label {
+.Navigation-m__label___1lCkw {
   display: inline-block;
   margin-bottom: .5em;
   font-size: .7rem;
   text-transform: uppercase;
-  color: #fff !important;
-  opacity: .8 !important;
+  color: #fff;
+  opacity: .8;
   font-weight: 600;
   letter-spacing: .03em
 }
@@ -5438,8 +5437,8 @@ nav {
 nav .Navigation-m__label___1lCkw {
   display: block;
   font-weight: 400;
-  color: #fff !important;
-  opacity: .8 !important;
+  color: #fff;
+  opacity: .8;
   text-transform: uppercase;
   font-size: .65rem;
   margin-top: 2rem
@@ -6069,7 +6068,8 @@ p.Sidebar-m__error___1nNkn {
 }
 
 .KSCtm  {
-  color: #0082e6 !important;
+  background: #0082e6 !important;
+  color: #fff !important;
 }
 
 .iDGvdy {
