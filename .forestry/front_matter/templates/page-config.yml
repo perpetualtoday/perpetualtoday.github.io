@@ -3,62 +3,88 @@ label: Page Config
 hide_body: true
 fields:
 - type: text
+  name: title
+  label: Site Name
+  hidden: false
+- type: text
   name: baseURL
-  label: baseURL
+  label: Website Address
+  description: URL of website
 - type: text
   name: languageCode
   label: languageCode
-- type: text
-  name: title
-  label: title
+  hidden: true
 - type: text
   name: summaryLength
   label: summaryLength
+  hidden: true
 - type: number
   name: paginate
   label: paginate
+  hidden: true
 - type: text
   name: home
   label: home
+  hidden: true
 - type: field_group
   name: params
-  label: params
+  label: Main Settings
   fields:
-  - type: field_group_list
-    name: social
-    label: social
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: icon
-      label: icon
-    - type: text
-      name: link
-      label: link
-  - type: text
-    name: layout
-    label: layout
-  - type: list
-    name: mainSections
-    label: mainSections
   - type: field_group
     name: brand
-    label: brand
+    label: Brand Settings
     fields:
     - type: file
       name: logo
-      label: logo
+      label: Colored Logo
     - type: file
       name: monochrome
-      label: monochrome
+      label: Monochrome Logo
+      description: "<strong>SVG is recommended.</strong>"
     - type: file
       name: wordmark
-      label: wordmark
+      label: Wordmark
     - type: file
       name: preloader
-      label: preloader
+      label: Preloader
+  - type: field_group_list
+    name: social
+    label: Social Media Pages
+    fields:
+    - type: text
+      name: title
+      label: Name
+    - type: text
+      name: icon
+      label: Icon
+      description: Icon <strong>always starts </strong>with 'ti-'
+    - type: text
+      name: link
+      label: Link
+  - type: field_group
+    name: contact
+    label: Contact Details
+    fields:
+    - type: text
+      name: messenger
+      label: Facebook Messenger
+    - type: text
+      name: hashtag
+      label: Instagram Hashtag
+    - type: text
+      name: email
+      label: E-mail
+    - type: text
+      name: address
+      label: Address
+  - type: text
+    name: layout
+    label: layout
+    hidden: true
+  - type: list
+    name: mainSections
+    label: mainSections
+    hidden: true
   - type: field_group
     name: publication
     label: publication
@@ -72,22 +98,7 @@ fields:
     - type: text
       name: copyright
       label: copyright
-  - type: field_group
-    name: contact
-    label: contact
-    fields:
-    - type: text
-      name: messenger
-      label: messenger
-    - type: text
-      name: hashtag
-      label: hashtag
-    - type: text
-      name: email
-      label: email
-    - type: text
-      name: address
-      label: address
+    hidden: true
   - type: field_group
     name: services
     label: services
@@ -98,13 +109,14 @@ fields:
     - type: textarea
       name: formAction
       label: formAction
+    hidden: true
   - type: field_group
     name: preloader
-    label: preloader
+    label: Preloader
     fields:
     - type: boolean
       name: enable
-      label: enable
+      label: Enabled
   - type: field_group
     name: search
     label: search
@@ -112,6 +124,7 @@ fields:
     - type: boolean
       name: enable
       label: enable
+    hidden: true
   - type: field_group
     name: plugins
     label: plugins
@@ -123,6 +136,7 @@ fields:
       - type: text
         name: link
         label: link
+      hidden: true
     - type: field_group_list
       name: js
       label: js
@@ -130,36 +144,37 @@ fields:
       - type: text
         name: link
         label: link
+    hidden: true
 - type: field_group
   name: menu
-  label: menu
+  label: Menus
   fields:
   - type: field_group_list
     name: main
-    label: main
+    label: Header
     fields:
     - type: text
       name: name
-      label: name
+      label: Name
     - type: text
       name: URL
       label: URL
     - type: number
       name: weight
-      label: weight
+      label: Importance
   - type: field_group_list
     name: footer
-    label: footer
     fields:
     - type: text
       name: URL
       label: URL
     - type: text
       name: name
-      label: name
+      label: Name
     - type: number
       name: weight
-      label: weight
+      label: Importance
+    label: Footer
 - type: field_group
   name: outputs
   label: outputs
@@ -167,6 +182,7 @@ fields:
   - type: list
     name: home
     label: home
+  hidden: true
 - type: field_group
   name: module
   label: module
@@ -178,6 +194,7 @@ fields:
     - type: text
       name: path
       label: path
+  hidden: true
 - type: field_group
   name: taxonomies
   label: taxonomies
@@ -191,3 +208,4 @@ fields:
   - type: text
     name: author
     label: author
+  hidden: true
