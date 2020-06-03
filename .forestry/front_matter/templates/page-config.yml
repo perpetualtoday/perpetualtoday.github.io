@@ -1,0 +1,193 @@
+---
+label: Page Config
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summaryLength
+  label: summaryLength
+- type: number
+  name: paginate
+  label: paginate
+- type: text
+  name: home
+  label: home
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: field_group_list
+    name: social
+    label: social
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: link
+      label: link
+  - type: text
+    name: layout
+    label: layout
+  - type: list
+    name: mainSections
+    label: mainSections
+  - type: field_group
+    name: brand
+    label: brand
+    fields:
+    - type: file
+      name: logo
+      label: logo
+    - type: file
+      name: monochrome
+      label: monochrome
+    - type: file
+      name: wordmark
+      label: wordmark
+    - type: file
+      name: preloader
+      label: preloader
+  - type: field_group
+    name: publication
+    label: publication
+    fields:
+    - type: text
+      name: author
+      label: author
+    - type: textarea
+      name: description
+      label: description
+    - type: text
+      name: copyright
+      label: copyright
+  - type: field_group
+    name: contact
+    label: contact
+    fields:
+    - type: text
+      name: messenger
+      label: messenger
+    - type: text
+      name: hashtag
+      label: hashtag
+    - type: text
+      name: email
+      label: email
+    - type: text
+      name: address
+      label: address
+  - type: field_group
+    name: services
+    label: services
+    fields:
+    - type: text
+      name: disqusShortname
+      label: disqusShortname
+    - type: textarea
+      name: formAction
+      label: formAction
+  - type: field_group
+    name: preloader
+    label: preloader
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: field_group
+    name: search
+    label: search
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: field_group
+    name: plugins
+    label: plugins
+    fields:
+    - type: field_group_list
+      name: css
+      label: css
+      fields:
+      - type: text
+        name: link
+        label: link
+    - type: field_group_list
+      name: js
+      label: js
+      fields:
+      - type: text
+        name: link
+        label: link
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: URL
+      label: URL
+    - type: number
+      name: weight
+      label: weight
+  - type: field_group_list
+    name: footer
+    label: footer
+    fields:
+    - type: text
+      name: URL
+      label: URL
+    - type: text
+      name: name
+      label: name
+    - type: number
+      name: weight
+      label: weight
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+- type: field_group
+  name: module
+  label: module
+  fields:
+  - type: field_group_list
+    name: imports
+    label: imports
+    fields:
+    - type: text
+      name: path
+      label: path
+- type: field_group
+  name: taxonomies
+  label: taxonomies
+  fields:
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: tag
+    label: tag
+  - type: text
+    name: author
+    label: author
