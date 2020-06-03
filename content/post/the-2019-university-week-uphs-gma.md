@@ -1,7 +1,6 @@
 ---
 title: The 2019 University Week - UPHS-GMA
-description: Let's take a look at what happened on 2019's University Week at the University
-  of Perpetual Help - GMA Campus
+description: "Let's take a look at what happened on 2019's University Week at the University of Perpetual Help - GMA Campus"
 authors:
 - authors/ivy-mambanon.md
 - authors/sophia-morena-tauxe.md
