@@ -8,6 +8,15 @@ fields:
   description: Title of the article.
   config:
     required: true
+- type: list
+  name: authors
+  label: Author/s
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
+  description: To add your name, add a new author in the <strong>Authors </strong>section.
 - type: textarea
   name: description
   label: Short Description
@@ -19,16 +28,6 @@ fields:
   label: type
   default: editorial
   hidden: true
-- type: list
-  name: authors
-  label: Authors
-  config:
-    use_select: false
-    source:
-      type: pages
-      section: authors
-  description: Make sure it is already added on the authors tab or the website won't
-    save.
 - type: file
   name: image
   label: Hero Image
