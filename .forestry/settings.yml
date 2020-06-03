@@ -29,7 +29,7 @@ sections:
   label: Pages
 - type: document
   path: content/about/_index.md
-  label: About Perpetual Today
+  label: About
 - type: document
   path: data/about.yml
   label: Officers
