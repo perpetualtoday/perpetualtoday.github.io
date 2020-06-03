@@ -14,7 +14,7 @@
   width: 250px;
   padding: 4px;
   margin-top: 1px;
-  z-index: 99999 !important;
+  z-index: 99999
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #f9f9f9
@@ -859,7 +859,8 @@ a {
 
 a:active,
 a:hover {
-  outline-width: 0
+  outline-width: 0;
+  color: #ffc61a !important;
 }
 
 abbr[title] {
@@ -5461,15 +5462,16 @@ nav .Navigation-m__nav-item___29fP- a {
   padding: .9em 0;
   transition: color 180ms ease;
   border: none;
-  opacity: .7
 }
 
 nav .Navigation-m__nav-item___29fP- a:hover {
-  opacity: 1
+  opacity: 1;
+  color: #ffc61a !important;
 }
 
 nav .Navigation-m__nav-item___29fP-:hover {
-  opacity: 1
+  opacity: 1;
+  color: #ffc61a !important;
 }
 
 nav .Navigation-m__nav-item___29fP-.Navigation-m__active___Eb9KW {
@@ -5477,7 +5479,7 @@ nav .Navigation-m__nav-item___29fP-.Navigation-m__active___Eb9KW {
 }
 
 nav .Navigation-m__nav-item___29fP-.Navigation-m__active___Eb9KW a {
-  color: #1b99fe !important;
+  color: #ffc61a !important;
 }
 
 nav .Navigation-m__nav-item___29fP-[data-count]:after {
@@ -5490,12 +5492,14 @@ nav .Navigation-m__nav-item___29fP-[data-count]:after {
   display: flex;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  color: #747474;
+  color: #fff;
+  opacity: .8;
   transition: color 180ms ease
 }
 
 nav .Navigation-m__nav-item___29fP-[data-count]:hover:after {
-  color: #fff
+  color: #fff;
+  opacity: .8
 }
 
 nav .Navigation-m__nav-item___29fP- svg {
@@ -5579,31 +5583,31 @@ p.Notifications-m__error___2xNfd {
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl {
   width: 14px;
   height: 14px;
-  border: 2px solid #424242;
+  border: 2px solid #80c7fe;
   border-radius: 100%;
   cursor: pointer
 }
 
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl.Notifications-m__idle___C5Abf {
-  border-color: #f3f3f3;
+  border-color: #fff;
   opacity: .6
 }
 
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl.Notifications-m__thinking___2wT9T {
-  border-top-color: #282828;
+  border-top-color: #1b99fe;
   animation: Notifications-m__loaderSpin___3S63b 1s infinite linear
 }
 
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl.Notifications-m__success___ynWPN {
-  border-color: #1b99fe !important;
+  border-color: #ffd24d !important;
 }
 
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl.Notifications-m__error___2xNfd {
-  border-color: #f37f7f
+  border-color: #f05c5c
 }
 
 .Notifications-m__system-status___3WTRO .Notifications-m__indicator___9zrnl.Notifications-m__warning___z6k82 {
-  border-color: #ffdc8e
+  border-color: #e69e00
 }
 
 .Notifications-m__indicator--unread-count___36cFY {
@@ -6027,7 +6031,7 @@ p.Sidebar-m__error___1nNkn {
   top: 7rem;
   width: 100%;
   height: calc(100% - 10rem);
-  background: #1c1c1c;
+  background: #01579b;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -6036,6 +6040,10 @@ p.Sidebar-m__error___1nNkn {
   overflow-x: hidden;
   -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch
+}
+
+.sc-bGbJRg {
+  background: #e6ac00 !important;
 }
 
 @media screen and (min-width: 840px) {
