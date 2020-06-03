@@ -12,7 +12,6 @@ lastmod:
 image: "/assets/images/uweek-new.png"
 categories:
 - Feature
-draft: true
 
 ---
 ### Strive For Victory
