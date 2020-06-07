@@ -1,105 +1,54 @@
-# default config
-baseURL = "https://perpetualtoday.netlify.app"
-languageCode = "en-us"
-title = "Perpetual Today"
-summaryLength = "10"
-paginate = 6
-
+baseURL = "https://www.perpetualtoday.cf"
 home = "Home"
-
-# Social Media sites
-[[params.social]]
-title = "Facebook"
-icon = "ti-facebook"
-link = "https://fb.me/perpetualtoday"
-
-[[params.social]]
-title = "Instagram"
-icon = "ti-instagram"
-link = "https://instagr.am/perpetualtoday"
-
-# Main Navigation
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
-
-[[menu.main]]
-name = "Browse"
-URL = "browse"
-weight = 3
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 3
-
-# Footer Navigation - Quick Links
+languageCode = "en-us"
+paginate = 6
+summaryLength = "10"
+title = "Perpetual Today"
 [[menu.footer]]
 URL = "about"
 name = "Against \"Owl\" Odds"
 weight = 1
-
 [[menu.footer]]
 URL = "browse"
 name = "All Posts"
 weight = 2
-
 [[menu.footer]]
 URL = "contact"
 name = "Contact Perpetual Today"
 weight = 3
-
 [[menu.footer]]
 URL = "ethics"
 name = "Code of Conduct"
 weight = 4
-
-# Settings
-[params]
-
-# theme layout ( two layout is available, "1" and "2" )s
-layout = "1"
-mainSections = ["post", "editorial"]
-
-[params.brand]
-# Logo and wordmark
-logo = "/assets/brand/logo.png"
-monochrome = "/assets/brand/logo.svg"
-wordmark = "/assets/brand/wordmark.png"
-preloader = "/assets/brand/loader.svg"
-
-# Meta data
-[params.publication]
-author = "Perpetual Today"
-description = "We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department."
-copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph)."
-
-# Contact Info
-[params.contact]
-messenger = "@PerpetualToday"
-hashtag = "PerpetualTodayGMA"
-email = "perpetualtoday@gmail.com"
-address = "University of Perpetual Help-GMA Campus, General Mariano Alvarez, Cavite"
-
-# 3rd-party Services
-[params.services]
-disqusShortname = "perpetualtoday"
-formAction = "https://docs.google.com/forms/d/e/1FAIpQLSdAOBqw_Yyyul5w3sQaiSgWjTPd1C8f-c22pnjrwTjESZgtxg/formResponse"
-
-# Preloader
-[params.preloader]
-enable = true
-
-# Search Box in Navigation
-[params.search]
-enable = true
-
-# output
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "browse"
+name = "Browse"
+weight = 3
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[module.imports]]
+path = "heroicons"
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-# CSS Plugins
+[params]
+layout = "1"
+mainSections = ["post", "editorial"]
+[params.brand]
+logo = "/assets/brand/logo.png"
+monochrome = "/assets/brand/logo.svg"
+preloader = "/assets/brand/loader.svg"
+wordmark = "/assets/brand/wordmark.png"
+[params.contact]
+address = "University of Perpetual Help-GMA Campus, General Mariano Alvarez, Cavite"
+email = "perpetualtoday@gmail.com"
+hashtag = "PerpetualTodayGMA"
+messenger = "@PerpetualToday"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -108,8 +57,6 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/glide/glide.core.min.css"
 [[params.plugins.css]]
 link = "plugins/glide/glide.core.theme.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -126,11 +73,26 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-
-[[module.imports]]
-path = "heroicons"
-
+[params.preloader]
+enable = true
+[params.publication]
+author = "Perpetual Today"
+copyright = "2020 Perpetual Today and the [University of Perpetual Help-GMA Campus](https://gma.uphsl.edu.ph)."
+description = "We are Perpetual Today, the official publication of the University of Perpetual Help-GMA Campus Senior High School Department."
+[params.search]
+enable = true
+[params.services]
+disqusShortname = "perpetualtoday"
+formAction = "https://docs.google.com/forms/d/e/1FAIpQLSdAOBqw_Yyyul5w3sQaiSgWjTPd1C8f-c22pnjrwTjESZgtxg/formResponse"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://fb.me/perpetualtoday"
+title = "Facebook"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://instagr.am/perpetualtoday"
+title = "Instagram"
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors"
+author = "authors"
+category = "categories"
+tag = "tags"

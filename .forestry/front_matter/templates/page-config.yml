@@ -209,3 +209,5 @@ fields:
     name: author
     label: author
   hidden: true
+pages:
+- config.toml
