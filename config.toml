@@ -9,6 +9,10 @@ URL = "about"
 name = "Against \"Owl\" Odds"
 weight = 1
 [[menu.footer]]
+URL = "ethics"
+name = "Code of Conduct"
+weight = 4
+[[menu.footer]]
 URL = "browse"
 name = "All Posts"
 weight = 2
@@ -16,10 +20,6 @@ weight = 2
 URL = "contact"
 name = "Contact Perpetual Today"
 weight = 3
-[[menu.footer]]
-URL = "ethics"
-name = "Code of Conduct"
-weight = 4
 [[menu.main]]
 URL = "about"
 name = "About"
