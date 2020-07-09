@@ -1,5 +1,5 @@
 +++
-facebook = "john.binsent/"
+facebook = ""
 image = "/assets/images/2020-03-29-Slide7.PNG"
 instagram = "john.binsent"
 title = "John Vincent Corcega"
