@@ -8,6 +8,14 @@ fields:
   description: Title of the article.
   config:
     required: true
+- type: textarea
+  name: description
+  label: Short Description
+  description: Description shown in the <strong>home page</strong>, <strong>social
+    media previews</strong>, and <strong>results from search engines</strong> (e.g.
+    Google).
+  config:
+    required: true
 - type: list
   name: authors
   label: Author/s
@@ -17,12 +25,6 @@ fields:
       type: pages
       section: authors
   description: To add your name, add a new author in the <strong>Authors </strong>section.
-- type: textarea
-  name: description
-  label: Short Description
-  description: Short description of the article
-  config:
-    required: true
 - type: text
   name: type
   label: type
