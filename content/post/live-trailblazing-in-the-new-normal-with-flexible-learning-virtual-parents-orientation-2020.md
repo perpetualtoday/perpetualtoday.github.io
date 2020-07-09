@@ -11,7 +11,6 @@ title = "LIVE: \"Trailblazing In The New Normal with Flexible Learning\" - Virtu
 type = ""
 
 +++
-
-    {{< embed >}}
-    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerpetualToday%2Fposts%2F295511635143533&width=500" width="500" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    {{< /embed >}}
+{{< embed >}}
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerpetualToday%2Fposts%2F295511635143533&width=500" width="500" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+{{< /embed >}}
