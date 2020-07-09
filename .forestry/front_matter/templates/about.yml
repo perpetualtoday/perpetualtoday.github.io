@@ -4,13 +4,18 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Page Title
+  description: Title of the page
+- type: file
+  name: image
+  label: Hero Image
+  description: Image seen at the top of the page. <strong>Please keep default.</strong>
 - type: text
   name: date
   label: date
-- type: file
-  name: image
-  label: image
+  hidden: true
 - type: textarea
   name: description
-  label: description
+  label: Short Description
+  description: Description shown in <strong>social media previews</strong>, and results
+    from <strong>search engines</strong> (e.g. Google).
