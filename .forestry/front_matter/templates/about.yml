@@ -19,3 +19,5 @@ fields:
   label: Short Description
   description: Description shown in <strong>social media previews</strong>, and results
     from <strong>search engines</strong> (e.g. Google).
+pages:
+- content/about/_index.md
