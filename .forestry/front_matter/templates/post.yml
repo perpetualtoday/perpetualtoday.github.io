@@ -12,7 +12,9 @@ fields:
 - type: text
   name: description
   label: Short Description
-  description: Short description or excerpt of the article
+  description: Description shown in the <strong>home page</strong>, <strong>social
+    media previews</strong>, and <strong>results from search engines</strong> (e.g.
+    Google).
   config:
     required: true
 - type: list
