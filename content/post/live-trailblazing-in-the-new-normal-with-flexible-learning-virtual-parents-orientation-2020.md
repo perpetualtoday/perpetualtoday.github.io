@@ -4,6 +4,7 @@ categories = ["Feature"]
 credit = ""
 date = 2020-07-10T02:00:00Z
 description = "Get to know the University of Perpetual Help - GMA Campus this academic year with the Virtual Parents' Orientation tomorrow starting 4PM. A collaboration of the Senior High School and Basic Education Department."
+draft = true
 image = "/assets/images/2020/07/10/orientation-shsbed2020.png"
 lastmod = ""
 tags = ["SHS"]
