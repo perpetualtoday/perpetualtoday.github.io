@@ -18,7 +18,7 @@ Some of the most important parts of a school or a learning institution are obvio
 
 Two such examples of these kinds of students are Karl Vargas and Thomas Lomarda, two students from STEM 1 - Diamond, and former BED students. Take a look as these two build the UPHS-GMA Campus block by painstaking block in the juggernaut video game entitled Minecraft.
 
-{{< embed >}} <iframe width="552" height="311" src="[https://www.youtube.com/embed/68h6hjGDm9k](https://www.youtube.com/embed/68h6hjGDm9k "https://www.youtube.com/embed/68h6hjGDm9k")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {{< /embed >}}
+{{< embed >}}<iframe width="552" height="311" src="https://www.youtube.com/embed/68h6hjGDm9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{{< /embed >}}
 
 While known as simply a children's game to some, Vargas and Lomarda spent more than two weeks recreating the entire campus by cross-referencing it with their own knowledge of the school along with resources available to them online.
 
