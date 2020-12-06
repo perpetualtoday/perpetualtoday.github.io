@@ -7,5 +7,5 @@ HUGO_VERSION = "0.72.0"
 
 [[redirects]]
   from = "/*"
-  to = "/404/"
-  status = 404
+  to = "//perpetualtoday.blogspot.com"
+  status = 301
