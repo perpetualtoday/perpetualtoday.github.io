@@ -1,16 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    {{- partial "head.html" . -}}
-    <body id="full-page">
-        <anchor class="top-content" id="top-content"></anchor>
-        {{- partial "components/preloader.html" . -}}
-        {{- partial "header.html" . -}}
-        <div id="fb-root"></div>
-        <content id="content">
-        {{- block "main" . }}{{- end }}
-        <anchor id="bottom-content"></anchor>
-        </content>
-        {{- partial "footer.html" . -}}
-        {{- partial "javascript.html" . -}}
-    </body>
+<!--[if IE 8 ]><html class="no-js oldie ie8"lang=en> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9"lang=en> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class=no-js lang=en> <!--<![endif]-->
+<head>
+	<meta http-equiv="refresh" content="0; url=//perpetualtoday.blogspot.com" />
+</head>
 </html>
